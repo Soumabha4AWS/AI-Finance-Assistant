@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "Core NLP & Summarization",
+    "question": "What is a News Synthesizer and how does it differ from single-document summarization?",
+    "answer": "A News Synthesizer aggregates, cross-references, deduplicates, and synthesizes news articles from multiple sources covering the same event into a single, coherent narrative. Unlike single-document summarization which distills a single text, news synthesis handles multi-document redundancy, conflicting factual reports, temporal ordering, and cross-source bias reconciliation."
+  },
+  {
+    "id": 2,
+    "category": "Core NLP & Summarization",
+    "question": "What is the difference between Extractive and Abstractive News Summarization?",
+    "answer": "Extractive summarization selects and concatenates verbatim sentences directly from source articles based on statistical importance or sentence embeddings. Abstractive summarization uses generative language models to reformulate, rephrase, and combine key concepts into fresh, human-like narrative sentences."
+  },
+  {
+    "id": 3,
+    "category": "Core NLP & Summarization",
+    "question": "What is Multi-Document Redundancy Reduction in news synthesis?",
+    "answer": "When multiple media outlets cover the same breaking story, high percentages of text overlap in core facts. Redundancy reduction identifies semantically duplicate information across articles using sentence embeddings, maximal marginal relevance (MMR), or clustering, retaining only unique factual nuggets."
+  },
+  {
+    "id": 4,
+    "category": "Core NLP & Summarization",
+    "question": "What is Maximal Marginal Relevance (MMR) and how is it used in news selection?",
+    "answer": "MMR is a scoring metric that balances query relevance against novelty relative to already selected sentences: MMR = ArgMax [ lambda * Sim1(s, Query) - (1 - lambda) * Max(Sim2(s, Selected)) ]. It prevents news synthesizers from choosing repetitive information."
+  },
+  {
+    "id": 5,
+    "category": "Core NLP & Summarization",
+    "question": "How do Abstractive Summarization models avoid factual hallucination when synthesizing news?",
+    "answer": "Mitigation techniques include grounding generative LLMs with Retrieval-Augmented Generation (RAG), applying constrained decoding, implementing programmatic fact-checking verification, requiring explicit inline citation mapping, and using strict system prompts instructing models not to infer unstated details."
+  },
+  {
+    "id": 6,
+    "category": "Core NLP & Summarization",
+    "question": "What is Temporal Alignment in multi-source breaking news synthesis?",
+    "answer": "Temporal alignment chronologically orders developments reported across disparate news feeds published at different timestamps, resolving time-relative references (e.g., 'yesterday', 'this morning') into absolute dates/times to build an accurate timeline."
+  },
+  {
+    "id": 7,
+    "category": "Core NLP & Summarization",
+    "question": "What is Coreference Resolution in multi-document news synthesis?",
+    "answer": "Coreference resolution links different linguistic expressions referring to the exact same entity across multiple articles (e.g., matching 'The Fed Chair', 'Jerome Powell', and 'he'). This prevents entity confusion when merging statements from distinct news sources."
+  },
+  {
+    "id": 8,
+    "category": "Core NLP & Summarization",
+    "question": "What is Source Conflict Resolution when two news outlets report opposing facts?",
+    "answer": "When outlets report conflicting numbers or details (e.g., casualty counts or deal valuations), the synthesizer flags the discrepancy, attributes the numbers directly to respective sources (e.g., 'Reuters reports 50 while AP reports 60'), or assigns confidence scores based on source domain authority."
+  },
+  {
+    "id": 9,
+    "category": "Core NLP & Summarization",
+    "question": "What is Information Pyramid Model (SCU - Summary Content Units) in summarization evaluation?",
+    "answer": "The Pyramid Method evaluates summaries by decomposing source articles into atomic factual statements (Summary Content Units). Evaluators score candidate summaries based on how many high-frequency SCUs reported across multiple news sources are present."
+  },
+  {
+    "id": 10,
+    "category": "Core NLP & Summarization",
+    "question": "What is Cross-Lingual News Synthesis?",
+    "answer": "Cross-lingual synthesis ingests news articles published in multiple languages (e.g., Spanish, Mandarin, English), translates or embeds them into a shared vector space, and generates a unified summary in a target language."
+  },
+  {
+    "id": 11,
+    "category": "Core NLP & Summarization",
+    "question": "How does Semantic Chunking improve news article ingestion in RAG synthesis pipelines?",
+    "answer": "Semantic chunking breaks news articles at logical paragraph or thematic transitions based on embedding distance shifts rather than fixed character lengths, ensuring complete narrative ideas and quotes remain contiguous."
+  },
+  {
+    "id": 12,
+    "category": "Core NLP & Summarization",
+    "question": "What is Map-Reduce summarization strategy for handling long news corpora?",
+    "answer": "In Map-Reduce summarization, a 'Map' LLM call independently summarizes individual news articles or sections. Then a 'Reduce' LLM call consolidates all intermediate summaries into a master synthesized news executive brief."
+  },
+  {
+    "id": 13,
+    "category": "Core NLP & Summarization",
+    "question": "What is Refine strategy in news text summarization?",
+    "answer": "The Refine strategy passes news articles sequentially to an LLM: the model generates an initial summary from the first article, and sequentially updates and refines the summary as it ingests subsequent news pieces."
+  },
+  {
+    "id": 14,
+    "category": "Core NLP & Summarization",
+    "question": "What is Topic Modeling (e.g., BERTopic, LDA) in automated news clustering?",
+    "answer": "Topic modeling algorithms discover latent semantic clusters across thousands of daily news feeds, grouping related coverage into distinct story clusters before synthesis."
+  },
+  {
+    "id": 15,
+    "category": "Core NLP & Summarization",
+    "question": "What is News Inverted Pyramid structure and how do synthesizers mimic it?",
+    "answer": "The inverted pyramid journalism structure places crucial baseline facts (Who, What, When, Where, Why) in the opening paragraph, followed by supporting details and background context. Synthesizers replicate this by prioritizing high-weight lead facts at the top."
+  },
+  {
+    "id": 16,
+    "category": "Core NLP & Summarization",
+    "question": "How do Named Entity Recognition (NER) models enhance news synthesis?",
+    "answer": "NER identifies key entities (people, organizations, locations, monetary values, dates) in news streams, enabling metadata filtering, precise citation tracking, and structured knowledge extraction."
+  },
+  {
+    "id": 17,
+    "category": "Core NLP & Summarization",
+    "question": "What is Lead-3 Baseline in news summarization benchmarks?",
+    "answer": "The Lead-3 baseline uses the first three sentences of a news article as a heuristic summary. Because journalists write in inverted pyramid format, Lead-3 serves as a strong benchmark for news summarization models."
+  },
+  {
+    "id": 18,
+    "category": "Core NLP & Summarization",
+    "question": "What is Aspect-Based News Summarization?",
+    "answer": "Aspect-based synthesis generates targeted news summaries focusing on specific user-selected perspectives, such as economic impacts, political reactions, or environmental consequences."
+  },
+  {
+    "id": 19,
+    "category": "Core NLP & Summarization",
+    "question": "How is Discourse Parsing applied in news text processing?",
+    "answer": "Discourse parsing analyzes rhetorical relationships between clauses (e.g., Cause-Effect, Contrast, Attribution), preserving logical narrative flow when synthesizing multi-source content."
+  },
+  {
+    "id": 20,
+    "category": "Core NLP & Summarization",
+    "question": "What is Sentence Fusion in multi-document summarization?",
+    "answer": "Sentence fusion combines complementary details from overlapping sentences across different source articles into a single, concise compound sentence."
+  },
+  {
+    "id": 21,
+    "category": "Ingestion & Pipelines",
+    "question": "What are RSS Feeds and Webhooks in real-time news collection pipelines?",
+    "answer": "RSS feeds and webhooks push structured XML/JSON updates from publishers as articles are released, enabling low-latency news ingestion."
+  },
+  {
+    "id": 22,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Boilerplate Removal / DOM Scraping in news extraction?",
+    "answer": "Boilerplate removal strips headers, footers, sidebars, advertisements, cookie banners, and navigation menus from raw HTML to isolate core article body text."
+  },
+  {
+    "id": 23,
+    "category": "Ingestion & Pipelines",
+    "question": "How do news aggregators resolve URL canonicalization and republication tracking?",
+    "answer": "Aggregators inspect HTML `<link rel='canonical'>` tags, syndication metadata, and exact text hashing (e.g., SimHash) to attribute republished wire stories (e.g., AP/Reuters) back to the primary publisher."
+  },
+  {
+    "id": 24,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Paywall Detection and Handling in ethical news aggregation?",
+    "answer": "Paywall detection flags restricted articles based on HTTP status codes, schema metadata, or snippet cutoffs, preventing broken or truncated content from entering the synthesis pipeline."
+  },
+  {
+    "id": 25,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Near-Duplicate Detection using MinHash and Locality-Sensitive Hashing (LSH)?",
+    "answer": "MinHash and LSH estimate Jaccard similarity across large volumes of news documents in sub-linear time, instantly identifying syndicated or copied articles."
+  },
+  {
+    "id": 26,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Schema.org NewsArticle Structured Metadata?",
+    "answer": "Schema.org `NewsArticle` is a JSON-LD/microdata standard embedded in publisher HTML that exposes article headline, author, datePublished, dateModified, image, and publisher trust signals."
+  },
+  {
+    "id": 27,
+    "category": "Ingestion & Pipelines",
+    "question": "How do streaming architectures like Apache Kafka or AWS Kinesis support breaking news synthesis?",
+    "answer": "Streaming platforms ingest thousands of continuous news updates per second into distributed topics, allowing downstream NLP, vector indexing, and deduplication workers to process updates asynchronously."
+  },
+  {
+    "id": 28,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Rate Limiting and Robots.txt compliance in ethical news web crawling?",
+    "answer": "Respecting `robots.txt` rules and enforcing rate limiting (e.g., exponential backoff) prevents scrapers from overloading publisher web servers."
+  },
+  {
+    "id": 29,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Content Drift in ongoing breaking news updates?",
+    "answer": "Content drift occurs when live news articles are silently updated by editors as stories unfold. Ingestion pipelines track article versions using content hashing to capture major revisions."
+  },
+  {
+    "id": 30,
+    "category": "Ingestion & Pipelines",
+    "question": "How is Optical Character Recognition (OCR) applied in multi-media news synthesis?",
+    "answer": "OCR engines (e.g., Tesseract, PaddleOCR) extract text embedded in infographics, televised news tickers, and scanned PDF press releases for ingestion into text pipelines."
+  },
+  {
+    "id": 31,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Automatic Speech Recognition (ASR) in video/audio news ingestion?",
+    "answer": "ASR models (e.g., OpenAI Whisper) transcribe spoken audio from broadcast news, press conferences, and podcasts into timestamped text for downstream synthesis."
+  },
+  {
+    "id": 32,
+    "category": "Ingestion & Pipelines",
+    "question": "How do news synthesizers handle multi-modal content (text + images + charts)?",
+    "answer": "Multi-modal synthesizers process image captions, OCR data, and vision-language model embeddings alongside text, generating unified briefings with relevant imagery."
+  },
+  {
+    "id": 33,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Publisher Domain Authority and Source Reputation Weighting?",
+    "answer": "System-assigned domain authority scores rank source credibility based on editorial standards, historical accuracy, and peer citations, prioritizing reliable coverage during breaking news."
+  },
+  {
+    "id": 34,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Event Detection and Tracking (TDT - Topic Detection and Tracking)?",
+    "answer": "TDT techniques continuously analyze news streams to detect newly emerging events, track their evolution over time, and segment incoming articles into specific story threads."
+  },
+  {
+    "id": 35,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Vector Database Indexing strategy for fast news retrieval?",
+    "answer": "Indexing article chunks in vector databases (e.g., Pinecone, Milvus, Qdrant) with metadata tags (publish date, category, source) enables low-latency hybrid semantic search."
+  },
+  {
+    "id": 36,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Time-Decay Weighting in news vector retrieval?",
+    "answer": "Time-decay scoring applies an exponential decay function to vector similarity scores based on publication age: Score = Similarity * e^(-lambda * delta_t), favoring fresher coverage."
+  },
+  {
+    "id": 37,
+    "category": "Ingestion & Pipelines",
+    "question": "How is Data Lineage tracked in synthesized news products?",
+    "answer": "Data lineage maintains a unbroken chain from every generated sentence back to the exact source article URL, paragraph, and ingest timestamp, enabling auditing and transparency."
+  },
+  {
+    "id": 38,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Copyright Fair Use and Publisher Licensing in news aggregation?",
+    "answer": "Legal compliance requires aggregators to summarize and synthesize key facts under Fair Use guidelines while linking back to source outlets, avoiding reproduction of full copyrighted text."
+  },
+  {
+    "id": 39,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Web Scraping Headless Browser Automation (e.g., Playwright, Selenium)?",
+    "answer": "Headless browsers render dynamic single-page JavaScript news apps (e.g., React/Next.js sites) to extract content that static HTML scrapers cannot access."
+  },
+  {
+    "id": 40,
+    "category": "Ingestion & Pipelines",
+    "question": "What is Article Categorization Taxonomy?",
+    "answer": "Hierarchical classification structures (e.g., IPTC Subject Codes) tag incoming news into standardized categories (e.g., Politics, Markets, Technology, Sports)."
+  },
+  {
+    "id": 41,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Media Bias Detection in news synthesis?",
+    "answer": "Bias detection uses NLP classifiers to identify political leanings, framing, loaded language, and selective omission across news outlets, helping synthesizers present balanced coverage."
+  },
+  {
+    "id": 42,
+    "category": "Bias & Fact-Checking",
+    "question": "What is 'Perspective Clustering' or 'Both Sides' News Synthesis?",
+    "answer": "Perspective synthesis groups news coverage by editorial stance (e.g., left-leaning, center, right-leaning), presenting side-by-side balanced summaries of key viewpoints."
+  },
+  {
+    "id": 43,
+    "category": "Bias & Fact-Checking",
+    "question": "How do automated Fact-Verification pipelines work against external Knowledge Bases?",
+    "answer": "Fact verification pipelines extract claims (Subject-Predicate-Object triplets) from news text and verify them against trusted knowledge graphs (e.g., Wikidata) or official databases."
+  },
+  {
+    "id": 44,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Loaded Language / Framing Analysis in news NLP?",
+    "answer": "Framing analysis detects emotionally charged words or subtle biases (e.g., 'regime' vs 'government', 'protestors' vs 'rioters') to generate neutral synthesized summaries."
+  },
+  {
+    "id": 45,
+    "category": "Bias & Fact-Checking",
+    "question": "How is Misinformation and Fake News Filtering implemented in synthesis pipelines?",
+    "answer": "Filtering models score content using domain reputation metrics, claim consistency across independent outlets, social bot activity signals, and stance detection classifiers."
+  },
+  {
+    "id": 46,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Stance Detection in multi-source news analysis?",
+    "answer": "Stance detection classifies whether a news article agrees with, disagrees with, discusses, or is unrelated to a specific target claim or rumor."
+  },
+  {
+    "id": 47,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Citation Grounding and Inline Attribution?",
+    "answer": "Citation grounding maps synthesized sentences directly to primary source URLs with clickable inline footnotes (e.g., [1], [2]), allowing readers to verify assertions."
+  },
+  {
+    "id": 48,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Hallucination Self-Correction in LLM-based synthesizers?",
+    "answer": "Self-correction uses a secondary critic LLM or rule engine to cross-examine generated summaries against retrieve context chunks, flagging and revising unsupported statements."
+  },
+  {
+    "id": 49,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Claim Extraction in breaking news synthesis?",
+    "answer": "Claim extraction isolates verifiable factual assertions (e.g., statistics, quotes, official statements) from background context or subjective editorial commentary."
+  },
+  {
+    "id": 50,
+    "category": "Bias & Fact-Checking",
+    "question": "How do news synthesizers handle Rumors and Unverified Breaking Reports?",
+    "answer": "Synthesizers use hedging language ('unconfirmed reports state', 'allegedly') or tag content as 'Developing Story - Unverified' until multiple independent sources confirm details."
+  },
+  {
+    "id": 51,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Source Attribution Normalization?",
+    "answer": "Normalizing source attributions converts disparate quotes and indirect statements into clear, uniform attributions (e.g., 'According to the Department of Defense...')."
+  },
+  {
+    "id": 52,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Deepfake / AI-Generated Article Detection in news pipelines?",
+    "answer": "Detection algorithms analyze perplexity, burstiness, image metadata, and watermarks to filter out synthetic or AI-generated spam articles."
+  },
+  {
+    "id": 53,
+    "category": "Bias & Fact-Checking",
+    "question": "How does Sensationalism / Clickbait Filtering work?",
+    "answer": "Classifiers trained on headline-body consistency and sensational phrase patterns flag clickbait, re-ranking factual coverage above clickbait titles."
+  },
+  {
+    "id": 54,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Neutral Point of View (NPOV) Synthesis?",
+    "answer": "NPOV synthesis generates summaries that present all major viewpoints neutrally, avoiding subjective tone, loaded adjectives, or partisan bias."
+  },
+  {
+    "id": 55,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Cross-Source Fact Consistency Check?",
+    "answer": "Cross-source consistency checks compute pairwise agreement scores across independent reports. High agreement increases confidence; low agreement triggers conflict notices."
+  },
+  {
+    "id": 56,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Editorial Opinion vs Hard News Classification?",
+    "answer": "Classifiers separate opinion pieces, op-eds, and editorials from factual reporting, preventing subjective commentary from bleeding into hard-news summaries."
+  },
+  {
+    "id": 57,
+    "category": "Bias & Fact-Checking",
+    "question": "How do synthesizers handle Retractions and Article Corrections?",
+    "answer": "When publishers issue retractions or corrections, ingestion pipelines re-synthesize affected stories and issue updated alerts to subscribers."
+  },
+  {
+    "id": 58,
+    "category": "Bias & Fact-Checking",
+    "question": "What is the role of Human-in-the-Loop (HITL) for high-stakes news synthesis?",
+    "answer": "For sensitive domain news (e.g., geopolitics, elections, health crises), human editors review and approve AI-generated summaries before publication."
+  },
+  {
+    "id": 59,
+    "category": "Bias & Fact-Checking",
+    "question": "What is Automated Trust Scoring for online news sources?",
+    "answer": "Trust scoring algorithms evaluate domain history, transparent ownership, adherence to editorial standards, and correction transparency to score publisher credibility."
+  },
+  {
+    "id": 60,
+    "category": "Bias & Fact-Checking",
+    "question": "How do synthesizers handle Anonymously Sourced Claims?",
+    "answer": "Synthesizers explicitly preserve attribution context (e.g., 'according to officials speaking on condition of anonymity') so readers can evaluate source weight."
+  },
+  {
+    "id": 61,
+    "category": "System Architecture",
+    "question": "What is an Agentic RAG Architecture for News Synthesis?",
+    "answer": "An Agentic RAG system uses autonomous LLM agents (e.g., Searcher, Fact-Checker, Summarizer, Editor) that dynamically plan search queries, evaluate retrieved context, resolve conflicts, and synthesize comprehensive news briefs."
+  },
+  {
+    "id": 62,
+    "category": "System Architecture",
+    "question": "How does ReAct (Reason + Act) prompting benefit news synthesizer agents?",
+    "answer": "ReAct enables agents to alternate between reasoning ('I need to verify this claim') and acting (executing web searches or database queries), improving coverage thoroughness."
+  },
+  {
+    "id": 63,
+    "category": "System Architecture",
+    "question": "What is Hybrid Search (Dense + Sparse) in news retrieval?",
+    "answer": "Hybrid search combines dense vector embeddings (capturing high-level semantic meaning) with sparse keyword retrieval (BM25/SPLADE, capturing specific proper nouns, ticker symbols, and dates)."
+  },
+  {
+    "id": 64,
+    "category": "System Architecture",
+    "question": "What is Query Expansion and Decomposition for breaking news retrieval?",
+    "answer": "Query expansion breaks complex news questions into simpler sub-queries (e.g., 'economic impact', 'official statements'), retrieving broader multi-faceted context."
+  },
+  {
+    "id": 65,
+    "category": "System Architecture",
+    "question": "How does Reranking (e.g., Cross-Encoders, Cohere Rerank) optimize retrieved news chunks?",
+    "answer": "Rerankers re-score initial candidate vector search results using deep cross-attention, prioritizing the most relevant chunks before passing them to the generation prompt."
+  },
+  {
+    "id": 66,
+    "category": "System Architecture",
+    "question": "What is Personalization and User Interest Modeling in news synthesis?",
+    "answer": "Personalization engines maintain dynamic user profile vectors based on reading history, followed topics, and industry preferences, tailoring summary depth and focus to individual users."
+  },
+  {
+    "id": 67,
+    "category": "System Architecture",
+    "question": "What is Real-Time Push Notification Synthesis?",
+    "answer": "Push synthesizers generate concise 1-2 sentence breaking alerts with key takeaway points as new high-priority news clusters form."
+  },
+  {
+    "id": 68,
+    "category": "System Architecture",
+    "question": "What is Dynamic Context Window Expansion for large LLMs?",
+    "answer": "Large context models (e.g., 1M+ token windows) allow synthesizers to ingest dozens of full news articles simultaneously, reducing the need for aggressive chunking."
+  },
+  {
+    "id": 69,
+    "category": "System Architecture",
+    "question": "How is Knowledge Graph Integration used alongside vector stores in news synthesis?",
+    "answer": "Knowledge graphs represent entities and relationships explicitly (e.g., Company -> CEO -> Action), enabling precise structural queries that complement vector search."
+  },
+  {
+    "id": 70,
+    "category": "System Architecture",
+    "question": "What is Automated Executive Briefing / Daily Digest Generation?",
+    "answer": "Daily digest systems aggregate overnight news streams, cluster them by sector, and generate structured executive briefs delivered via email or dashboard every morning."
+  },
+  {
+    "id": 71,
+    "category": "System Architecture",
+    "question": "How do latency constraints affect real-time news synthesizer system design?",
+    "answer": "To meet sub-second SLA requirements, systems use asynchronous background streaming, pre-computed story vector clusters, and fast speculative decoding models."
+  },
+  {
+    "id": 72,
+    "category": "System Architecture",
+    "question": "What is Sub-Topic Clustering within a major news story?",
+    "answer": "Sub-topic clustering breaks a mega-story (e.g., global climate summit) into focused sub-narratives (e.g., policy commitments, protests, economic impact)."
+  },
+  {
+    "id": 73,
+    "category": "System Architecture",
+    "question": "How is User Feedback (Thumbs Up/Down, Edit Requests) incorporated in LLM news synthesis?",
+    "answer": "User feedback provides preference alignment data used to fine-tune generative models via Reinforcement Learning from Human Feedback (RLHF) or Direct Preference Optimization (DPO)."
+  },
+  {
+    "id": 74,
+    "category": "System Architecture",
+    "question": "What is Semantic Caching in high-traffic news Q&A synthesizers?",
+    "answer": "Semantic caching stores past Q&A response embeddings. When new queries match existing entries above a threshold (e.g., 0.95 similarity), cached summaries are returned instantly."
+  },
+  {
+    "id": 75,
+    "category": "System Architecture",
+    "question": "What is Multi-Modal News Audio Synthesis (Podcast Generation)?",
+    "answer": "Audio news synthesis transforms text briefings into multi-speaker conversational podcast scripts using natural text-to-speech (TTS) voice engines."
+  },
+  {
+    "id": 76,
+    "category": "System Architecture",
+    "question": "What is Content Moderation and Safety Guardrailing in news synthesis?",
+    "answer": "Safety guardrails intercept hate speech, graphic content descriptions, or unsafe material, ensuring generated news briefs meet safety guidelines."
+  },
+  {
+    "id": 77,
+    "category": "System Architecture",
+    "question": "What is News Article Timeline Generation?",
+    "answer": "Timeline synthesis extracts key milestone events and timestamps across long-running news stories, building interactive, bulleted chronological summaries."
+  },
+  {
+    "id": 78,
+    "category": "System Architecture",
+    "question": "How do synthesizers support Multi-Device Formatting (Mobile vs Desktop vs Smart Speaker)?",
+    "answer": "Formatting engines dynamically adjust output density: generating bulleted 30-second reads for mobile, structured deep-dives for desktop, and brief audio scripts for smart speakers."
+  },
+  {
+    "id": 79,
+    "category": "System Architecture",
+    "question": "What is Source Diversity Index in synthesized news feeds?",
+    "answer": "Source diversity metrics ensure summaries draw from a balanced mix of global, local, mainstream, and specialized independent outlets rather than relying on a single publisher."
+  },
+  {
+    "id": 80,
+    "category": "System Architecture",
+    "question": "What is Event Impact Score Modeling?",
+    "answer": "Impact scoring algorithms evaluate story magnitude based on coverage volume, social engagement, and market volatility, highlighting urgent news items."
+  },
+  {
+    "id": 81,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is ROUGE (1, 2, L) metric in news summarization evaluation?",
+    "answer": "ROUGE measures n-gram overlap between generated summaries and human reference summaries: ROUGE-1 (unigrams), ROUGE-2 (bigrams), and ROUGE-L (Longest Common Subsequence)."
+  },
+  {
+    "id": 82,
+    "category": "Evaluation & Benchmarks",
+    "question": "What are the key limitations of ROUGE for evaluating abstractive news synthesis?",
+    "answer": "ROUGE penalizes valid rephrasing or synonym usage, ignores factual accuracy/hallucination, and cannot score narrative flow, coherence, or balance."
+  },
+  {
+    "id": 83,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is BLEU score and how does it apply to multi-document news synthesis?",
+    "answer": "BLEU calculates precision of n-gram overlaps with brevity penalties. While originally built for translation, it serves as a secondary baseline metric in summarization."
+  },
+  {
+    "id": 84,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is BERTScore in news summarization evaluation?",
+    "answer": "BERTScore evaluates semantic equivalence by computing soft contextual embedding similarities (using BERT token representations) between generated and reference summaries."
+  },
+  {
+    "id": 85,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is Faithfulness / Factuality Evaluation in news synthesis?",
+    "answer": "Faithfulness evaluates whether every claim in a synthesized summary is directly supported by the source articles, ensuring zero hallucinated facts."
+  },
+  {
+    "id": 86,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is LLM-as-a-Judge (e.g., G-Eval, RAGAS) framework for news evaluation?",
+    "answer": "LLM-as-a-Judge uses advanced language models guided by strict rubrics to score synthesized summaries across metrics like Factuality, Completeness, Coherence, and Conciseness."
+  },
+  {
+    "id": 87,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is Multi-News Benchmark Dataset?",
+    "answer": "Multi-News is a large-scale multi-document news summarization dataset consisting of news article clusters paired with human-written synthesized summaries."
+  },
+  {
+    "id": 88,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is CNN/DailyMail dataset in summarization research?",
+    "answer": "CNN/DailyMail is a classic single-document news summarization benchmark containing over 300k news articles paired with bulleted bullet-point highlights."
+  },
+  {
+    "id": 89,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is XSum (Extreme Summarization) dataset?",
+    "answer": "XSum is a benchmark dataset composed of BBC news articles paired with single-sentence highly abstractive summaries."
+  },
+  {
+    "id": 90,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is DUC / TAC Benchmark Series in text summarization history?",
+    "answer": "DUC (Document Understanding Conference) and TAC (Text Analysis Conference) are foundational NIST-sponsored benchmark competitions that established multi-document summarization standards."
+  },
+  {
+    "id": 91,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is SummEval Framework?",
+    "answer": "SummEval is a comprehensive evaluation benchmark providing human quality ratings across Coherence, Consistency, Fluency, and Relevance for multiple summarization models."
+  },
+  {
+    "id": 92,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is QAServ / QAGS (Question Answering for Summary Evaluation)?",
+    "answer": "QAGS evaluates factual consistency by generating Q&A pairs from the summary and verifying if answering those questions against source texts yields identical answers."
+  },
+  {
+    "id": 93,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is Coverage vs Density metric in summarization?",
+    "answer": "Coverage measures the proportion of summary words coming directly from source text. Density measures average length of extractive word spans, quantifying abstractiveness."
+  },
+  {
+    "id": 94,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is Redundancy Score in multi-document synthesis evaluation?",
+    "answer": "Redundancy score quantifies repetitive content within synthesized output by calculating pairwise semantic similarity between sentences."
+  },
+  {
+    "id": 95,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is Entity Error Rate in automated news summarization?",
+    "answer": "Entity Error Rate tracks missing, misattributed, or hallucinated named entities (people, numbers, dates) in synthesized summaries."
+  },
+  {
+    "id": 96,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is Coherence and Cohesion in natural language evaluation?",
+    "answer": "Coherence evaluates macro-level thematic flow and logical structure across paragraphs. Cohesion evaluates micro-level grammatical transitions between adjacent sentences."
+  },
+  {
+    "id": 97,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is NLI-based (Natural Language Inference) Factuality Scoring?",
+    "answer": "NLI models classify whether source text 'entails', 'contradicts', or is 'neutral' toward each sentence in a synthesized summary, yielding an automated factuality score."
+  },
+  {
+    "id": 98,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is NEWTS (NEWS Topic-focused Summarization) Benchmark?",
+    "answer": "NEWTS is a dataset designed to evaluate topic-focused and aspect-based multi-document news summarization systems."
+  },
+  {
+    "id": 99,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is Human Preference A/B Testing in news product evaluation?",
+    "answer": "Human A/B testing presents pairs of AI-generated news summaries to expert journalists or readers to evaluate clarity, usefulness, and trust."
+  },
+  {
+    "id": 100,
+    "category": "Evaluation & Benchmarks",
+    "question": "What is Hallucination Rate per 1,000 words in production monitoring?",
+    "answer": "Production tracking metric monitoring the frequency of ungrounded or false statements generated per 1,000 words of output across live user queries."
+  }
+]

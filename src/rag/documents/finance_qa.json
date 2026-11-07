@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "Corporate Finance",
+    "question": "What is Weighted Average Cost of Capital (WACC) and how is it calculated?",
+    "answer": "WACC represents a company's average cost of capital from all sources (equity, debt, preferred stock). Formula: WACC = (E/V * Re) + (D/V * Rd * (1 - Tc)) + (P/V * Rp), where E is market value of equity, D is market value of debt, P is preferred stock, V = E + D + P, Re is cost of equity, Rd is cost of debt, Rp is cost of preferred stock, and Tc is corporate tax rate."
+  },
+  {
+    "id": 2,
+    "category": "Corporate Finance",
+    "question": "How do you calculate Free Cash Flow to Firm (FCFF)?",
+    "answer": "FCFF represents cash available to all capital providers after operating expenses and capital investments. Formula: FCFF = EBIT * (1 - Tax Rate) + Depreciation & Amortization - Capital Expenditures - Change in Net Working Capital."
+  },
+  {
+    "id": 3,
+    "category": "Corporate Finance",
+    "question": "What is the Capital Asset Pricing Model (CAPM)?",
+    "answer": "CAPM calculates expected return on an asset based on its systematic risk relative to the market. Formula: Expected Return = Risk-Free Rate + Beta * (Market Return - Risk-Free Rate)."
+  },
+  {
+    "id": 4,
+    "category": "Corporate Finance",
+    "question": "What is Enterprise Value (EV) and how does it differ from Equity Value?",
+    "answer": "Enterprise Value measures the total value of a business operating assets available to all investors. EV = Market Capitalization + Total Debt + Preferred Stock + Minority Interest - Cash & Cash Equivalents. Equity Value represents only the value available to common shareholders."
+  },
+  {
+    "id": 5,
+    "category": "Corporate Finance",
+    "question": "What is the Dividend Discount Model (DDM)?",
+    "answer": "DDM values a stock based on the present value of its future dividend payments. The Gordon Growth Model variation assumes constant dividend growth: Value = D1 / (r - g), where D1 is next year's dividend, r is required return, and g is constant growth rate."
+  },
+  {
+    "id": 6,
+    "category": "Corporate Finance",
+    "question": "What is Net Present Value (NPV) and how is it used in capital budgeting?",
+    "answer": "NPV is the sum of present values of incoming and outgoing cash flows over time discounted at a target rate. Formula: NPV = Sum(Ct / (1 + r)^t) - Initial Investment. A positive NPV indicates a project adds value."
+  },
+  {
+    "id": 7,
+    "category": "Corporate Finance",
+    "question": "What is Internal Rate of Return (IRR)?",
+    "answer": "IRR is the discount rate that makes the Net Present Value (NPV) of all cash flows from a project equal to zero. Projects with an IRR exceeding the required hurdle rate are generally accepted."
+  },
+  {
+    "id": 8,
+    "category": "Corporate Finance",
+    "question": "What is DuPont Analysis?",
+    "answer": "DuPont Analysis decomposes Return on Equity (ROE) into three components: Net Profit Margin (Profitability) * Asset Turnover (Efficiency) * Financial Leverage (Leverage). Formula: (Net Income / Revenue) * (Revenue / Assets) * (Assets / Equity)."
+  },
+  {
+    "id": 9,
+    "category": "Corporate Finance",
+    "question": "What is Working Capital and Working Capital Ratio?",
+    "answer": "Working Capital = Current Assets - Current Liabilities. Working Capital Ratio (Current Ratio) = Current Assets / Current Liabilities. It measures short-term liquidity and ability to cover short-term obligations."
+  },
+  {
+    "id": 10,
+    "category": "Corporate Finance",
+    "question": "What is the difference between Unlevered Beta and Levered Beta?",
+    "answer": "Levered Beta includes capital structure risk (debt impact), while Unlevered Beta removes debt impact to isolate pure operational risk. Formula: Unlevered Beta = Levered Beta / [1 + (1 - Tax Rate) * (Debt / Equity)]."
+  },
+  {
+    "id": 11,
+    "category": "Corporate Finance",
+    "question": "What is Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA)?",
+    "answer": "EBITDA measures core operational profitability before financing, tax expenses, and non-cash accounting charges. Formula: EBITDA = Net Income + Interest + Taxes + Depreciation + Amortization."
+  },
+  {
+    "id": 12,
+    "category": "Corporate Finance",
+    "question": "What is the Debt-to-Equity Ratio?",
+    "answer": "Debt-to-Equity evaluates financial leverage by dividing total debt by shareholders' equity. Formula: D/E = Total Liabilities / Shareholders' Equity."
+  },
+  {
+    "id": 13,
+    "category": "Corporate Finance",
+    "question": "What is Economic Value Added (EVA)?",
+    "answer": "EVA measures economic profit generated in excess of capital cost. Formula: EVA = NOPAT - (Capital Invested * WACC), where NOPAT is Net Operating Profit After Tax."
+  },
+  {
+    "id": 14,
+    "category": "Corporate Finance",
+    "question": "What is the difference between operating leverage and financial leverage?",
+    "answer": "Operating leverage refers to fixed operating costs relative to variable costs. Financial leverage refers to fixed financing costs (debt/interest) relative to equity capital."
+  },
+  {
+    "id": 15,
+    "category": "Corporate Finance",
+    "question": "What is the Cost of Debt formula?",
+    "answer": "Effective Cost of Debt accounts for tax deductible interest expenses: Cost of Debt = Yield to Maturity * (1 - Tax Rate)."
+  },
+  {
+    "id": 16,
+    "category": "Corporate Finance",
+    "question": "What is terminal value in a Discounted Cash Flow (DCF) model?",
+    "answer": "Terminal Value represents the value of all cash flows beyond explicit forecast years. Calculated via Perpetuity Growth: TV = (FCF_n * (1 + g)) / (WACC - g), or Exit Multiple method: TV = Financial Metric * Exit Multiple."
+  },
+  {
+    "id": 17,
+    "category": "Corporate Finance",
+    "question": "What is Return on Capital Employed (ROCE)?",
+    "answer": "ROCE measures capital efficiency and profitability relative to total capital employed. Formula: ROCE = EBIT / (Total Assets - Current Liabilities)."
+  },
+  {
+    "id": 18,
+    "category": "Corporate Finance",
+    "question": "What is a Synergies calculation in M&A transactions?",
+    "answer": "Synergies represent cost reductions (operational) or revenue additions (commercial) expected from combining entities: Value created = NPV(Revenue Synergies) + NPV(Cost Synergies) - Integration Costs."
+  },
+  {
+    "id": 19,
+    "category": "Corporate Finance",
+    "question": "What is the Cash Conversion Cycle (CCC)?",
+    "answer": "CCC measures days taken to convert inventory/resource investments into cash flows from sales. Formula: CCC = Days Inventory Outstanding (DIO) + Days Sales Outstanding (DSO) - Days Payable Outstanding (DPO)."
+  },
+  {
+    "id": 20,
+    "category": "Corporate Finance",
+    "question": "What is Modigliani-Miller Theorem?",
+    "answer": "Modigliani-Miller states under ideal assumptions (no taxes, transaction costs, or bankruptcy risks), corporate capital structure does not affect firm valuation. With corporate taxes, debt increases firm value due to tax shields."
+  },
+  {
+    "id": 21,
+    "category": "Fixed Income",
+    "question": "What is Yield to Maturity (YTM)?",
+    "answer": "YTM is the total internal return rate earned by an investor purchasing a bond at market price and holding it to maturity, assuming all coupon payments are reinvested at YTM."
+  },
+  {
+    "id": 22,
+    "category": "Fixed Income",
+    "question": "What is Macaulay Duration?",
+    "answer": "Macaulay Duration measures the weighted average time until a bond's cash flows are received, expressed in years. Higher coupon rates reduce Macaulay duration."
+  },
+  {
+    "id": 23,
+    "category": "Fixed Income",
+    "question": "What is Modified Duration and how does it relate to bond prices?",
+    "answer": "Modified Duration measures bond price sensitivity to interest rate changes. Formula: Modified Duration = Macaulay Duration / (1 + YTM/n). Percentage price change \u2248 -Modified Duration * Delta Interest Rate."
+  },
+  {
+    "id": 24,
+    "category": "Fixed Income",
+    "question": "What is Bond Convexity?",
+    "answer": "Convexity measures the curvature in the price-yield relationship of a bond. It improves duration estimation accuracy for large interest rate shifts."
+  },
+  {
+    "id": 25,
+    "category": "Fixed Income",
+    "question": "What is an inverted yield curve and what does it signal?",
+    "answer": "An inverted yield curve occurs when short-term interest rates exceed long-term interest rates. Historically, it signals market expectations of economic slowdown or impending recession."
+  },
+  {
+    "id": 26,
+    "category": "Financial Markets",
+    "question": "What is the difference between Primary and Secondary financial markets?",
+    "answer": "Primary markets facilitate direct original issuance of new securities (e.g., IPOs), where proceeds flow to the issuer. Secondary markets facilitate trading of existing securities among investors."
+  },
+  {
+    "id": 27,
+    "category": "Fixed Income",
+    "question": "What is a Zero-Coupon Bond?",
+    "answer": "A zero-coupon bond pays no periodic coupon interest; instead, it is issued at a discount relative to face value and redeemed at par at maturity."
+  },
+  {
+    "id": 28,
+    "category": "Fixed Income",
+    "question": "What is Credit Default Swap (CDS)?",
+    "answer": "A Credit Default Swap is a financial derivative agreement where buyer pays periodic fees to seller in exchange for compensation if a underlying reference entity defaults on debt."
+  },
+  {
+    "id": 29,
+    "category": "Financial Markets",
+    "question": "What is Market Liquidity?",
+    "answer": "Liquidity reflects the ease and speed with which an asset can be converted into cash without triggering significant adverse price movement."
+  },
+  {
+    "id": 30,
+    "category": "Financial Markets",
+    "question": "What is the Bid-Ask Spread?",
+    "answer": "The Bid-Ask Spread is the difference between highest price buyers offer (Bid) and lowest price sellers accept (Ask), representing market transaction costs and liquidity."
+  },
+  {
+    "id": 31,
+    "category": "Fixed Income",
+    "question": "What are Treasury Inflation-Protected Securities (TIPS)?",
+    "answer": "TIPS are US government bonds indexed to inflation (CPI). Principal values adjust with inflation, protecting investor purchasing power."
+  },
+  {
+    "id": 32,
+    "category": "Fixed Income",
+    "question": "What is a Convertible Bond?",
+    "answer": "A convertible bond is a hybrid corporate fixed-income security granting holders the right to convert principal into pre-determined equity shares."
+  },
+  {
+    "id": 33,
+    "category": "Fixed Income",
+    "question": "What is a Corporate Bond Credit Spread?",
+    "answer": "Credit spread is yield differential between a corporate bond and a risk-free government benchmark bond of matching maturity, reflecting default risk."
+  },
+  {
+    "id": 34,
+    "category": "Financial Markets",
+    "question": "What is the Efficient Market Hypothesis (EMH)?",
+    "answer": "EMH asserts security prices fully reflect all available information. Formats: Weak form (past price data), Semi-Strong form (public data), Strong form (all public and private data)."
+  },
+  {
+    "id": 35,
+    "category": "Financial Markets",
+    "question": "What is Quantitative Easing (QE)?",
+    "answer": "QE is a monetary policy action where central banks purchase long-term government bonds and financial securities to injection liquidity directly into the economy."
+  },
+  {
+    "id": 36,
+    "category": "Fixed Income",
+    "question": "What is High-Yield Debt (Junk Bonds)?",
+    "answer": "High-yield debt refers to bonds rated below investment grade (BB+ or Ba1 or lower) carrying higher default risk compensated by higher yields."
+  },
+  {
+    "id": 37,
+    "category": "Financial Markets",
+    "question": "What is Securitization?",
+    "answer": "Securitization aggregates illiquid assets (e.g., mortgages, auto loans) into tradable financial instruments like Asset-Backed Securities (ABS)."
+  },
+  {
+    "id": 38,
+    "category": "Fixed Income",
+    "question": "What is the LIBOR/SOFR transition?",
+    "answer": "Financial markets transitioned from LIBOR (London Interbank Offered Rate) to SOFR (Secured Overnight Financing Rate) to base borrowing rates on transparent transaction data rather than bank panel quotes."
+  },
+  {
+    "id": 39,
+    "category": "Fixed Income",
+    "question": "What is Effective Duration?",
+    "answer": "Effective Duration measures price responsiveness to parallel yield curve shifts for bonds with embedded options (such as callable or putable bonds)."
+  },
+  {
+    "id": 40,
+    "category": "Financial Markets",
+    "question": "What is a Repo and Reverse Repo agreement?",
+    "answer": "A Repurchase Agreement (Repo) is short-term borrowing selling securities with agreement to buy back at specified price/date. Reverse Repo is the opposing lending counterparty side."
+  },
+  {
+    "id": 41,
+    "category": "Derivatives",
+    "question": "What is Black-Scholes Option Pricing Model formula?",
+    "answer": "Black-Scholes values European call options: C = S0 * N(d1) - K * e^(-r*T) * N(d2), where d1 = [ln(S0/K) + (r + sigma^2/2)*T] / (sigma*sqrt(T)) and d2 = d1 - sigma*sqrt(T)."
+  },
+  {
+    "id": 42,
+    "category": "Derivatives",
+    "question": "What is Delta in options trading?",
+    "answer": "Delta measures expected option price change per $1 movement in underlying asset price. Call option deltas range between 0 and 1; put deltas between -1 and 0."
+  },
+  {
+    "id": 43,
+    "category": "Derivatives",
+    "question": "What is Gamma in options trading?",
+    "answer": "Gamma measures rate of change in option Delta for a $1 movement in underlying asset price (second derivative of option price with respect to underlying asset price)."
+  },
+  {
+    "id": 44,
+    "category": "Derivatives",
+    "question": "What is Theta in options trading?",
+    "answer": "Theta measures rate of option value decay due to passage of time (time decay), usually expressed per single calendar day."
+  },
+  {
+    "id": 45,
+    "category": "Derivatives",
+    "question": "What is Vega in options trading?",
+    "answer": "Vega measures option price sensitivity to a 1% shift in underlying asset implied volatility."
+  },
+  {
+    "id": 46,
+    "category": "Risk Management",
+    "question": "What is Value at Risk (VaR)?",
+    "answer": "VaR estimates maximum potential portfolio loss over specified time frame at given confidence level (e.g., 95% 1-day VaR of $1M means 95% chance losses won't exceed $1M in a single day)."
+  },
+  {
+    "id": 47,
+    "category": "Risk Management",
+    "question": "What is Conditional Value at Risk (CVaR) / Expected Shortfall?",
+    "answer": "CVaR measures expected portfolio loss given that loss exceeds the VaR threshold, addressing tail-risk beyond VaR."
+  },
+  {
+    "id": 48,
+    "category": "Derivatives",
+    "question": "What is the difference between Futures and Forwards contracts?",
+    "answer": "Futures are standardized contracts traded on regulated exchanges with daily mark-to-market settlement. Forwards are custom OTC non-standardized private contracts settled at expiration."
+  },
+  {
+    "id": 49,
+    "category": "Derivatives",
+    "question": "What is Put-Call Parity?",
+    "answer": "Put-Call Parity defines static equivalence for European options on same underlying: C + K * e^(-r*T) = P + S0, where C is call price, P is put price, K is strike price, S0 is spot price."
+  },
+  {
+    "id": 50,
+    "category": "Derivatives",
+    "question": "What is Implied Volatility (IV)?",
+    "answer": "Implied Volatility represents forward-looking expected price volatility of underlying asset derived inversely by inputting market option prices into pricing models."
+  },
+  {
+    "id": 51,
+    "category": "Derivatives",
+    "question": "What is an Interest Rate Swap?",
+    "answer": "An Interest Rate Swap is a derivative contract where two parties exchange periodic interest payment cash flows (typically fixed rate vs floating rate benchmark) based on specified principal."
+  },
+  {
+    "id": 52,
+    "category": "Derivatives",
+    "question": "What is an American option vs European option?",
+    "answer": "American options can be exercised at any time prior to or on expiration date. European options can only be exercised on exact expiration date."
+  },
+  {
+    "id": 53,
+    "category": "Risk Management",
+    "question": "What is Credit Risk and Counterparty Risk?",
+    "answer": "Credit risk is loss risk arising from borrower default. Counterparty risk is specific credit risk that counterparty in financial derivative trade fails to satisfy obligation before final settlement."
+  },
+  {
+    "id": 54,
+    "category": "Derivatives",
+    "question": "What is Delta Hedging?",
+    "answer": "Delta hedging is an options strategy creating directionally neutral portfolios by taking opposing positions in underlying asset matching net option delta."
+  },
+  {
+    "id": 55,
+    "category": "Risk Management",
+    "question": "What is Stress Testing in financial risk management?",
+    "answer": "Stress testing projects potential financial losses under hypothetical extreme macroeconomic scenarios (e.g., market crashes, liquidity freezes)."
+  },
+  {
+    "id": 56,
+    "category": "Derivatives",
+    "question": "What is Volatility Smile?",
+    "answer": "Volatility Smile refers to empirical pattern where deep out-of-the-money and in-the-money options show higher implied volatility than at-the-money options."
+  },
+  {
+    "id": 57,
+    "category": "Derivatives",
+    "question": "What is Contango and Backwardation in futures markets?",
+    "answer": "Contango occurs when futures prices exceed spot prices (upward sloping curve). Backwardation occurs when spot prices exceed futures prices."
+  },
+  {
+    "id": 58,
+    "category": "Risk Management",
+    "question": "What is Operational Risk under Basel Accord guidelines?",
+    "answer": "Operational Risk is loss risk resulting from inadequate or failed internal processes, human errors, system failures, or external events."
+  },
+  {
+    "id": 59,
+    "category": "Derivatives",
+    "question": "What is an Equity Swap?",
+    "answer": "An Equity Swap exchanges cash flows based on returns of an equity index/stock against fixed or floating interest rate cash flows."
+  },
+  {
+    "id": 60,
+    "category": "Risk Management",
+    "question": "What is Market Risk?",
+    "answer": "Market risk is potential loss due to movements in market variables including equity prices, foreign exchange rates, interest rates, and commodity prices."
+  },
+  {
+    "id": 61,
+    "category": "Portfolio Management",
+    "question": "What is the Sharpe Ratio?",
+    "answer": "Sharpe Ratio measures risk-adjusted return relative to risk-free rate. Formula: Sharpe Ratio = (Portfolio Return - Risk-Free Rate) / Portfolio Standard Deviation."
+  },
+  {
+    "id": 62,
+    "category": "Portfolio Management",
+    "question": "What is the Sortino Ratio?",
+    "answer": "Sortino Ratio evaluates risk-adjusted return considering only downside volatility. Formula: Sortino Ratio = (Portfolio Return - Risk-Free Rate) / Downside Deviation."
+  },
+  {
+    "id": 63,
+    "category": "Portfolio Management",
+    "question": "What is Modern Portfolio Theory (MPT)?",
+    "answer": "MPT, pioneered by Harry Markowitz, asserts investors can construct optimal portfolios maximizing expected return for given risk level through asset diversification."
+  },
+  {
+    "id": 64,
+    "category": "Portfolio Management",
+    "question": "What is the Efficient Frontier?",
+    "answer": "The Efficient Frontier represents optimal portfolios offering highest possible expected return for defined risk levels."
+  },
+  {
+    "id": 65,
+    "category": "Portfolio Management",
+    "question": "What is Jensen's Alpha?",
+    "answer": "Jensen's Alpha measures portfolio return earned above CAPM prediction given portfolio beta: Alpha = Portfolio Return - [Risk-Free Rate + Beta * (Market Return - Risk-Free Rate)]."
+  },
+  {
+    "id": 66,
+    "category": "Portfolio Management",
+    "question": "What is Treynor Ratio?",
+    "answer": "Treynor Ratio evaluates risk-adjusted return relative to systematic market risk: Treynor Ratio = (Portfolio Return - Risk-Free Rate) / Portfolio Beta."
+  },
+  {
+    "id": 67,
+    "category": "Portfolio Management",
+    "question": "What is the Information Ratio?",
+    "answer": "Information Ratio measures portfolio active return relative to benchmark divided by tracking error: IR = (Portfolio Return - Benchmark Return) / Tracking Error."
+  },
+  {
+    "id": 68,
+    "category": "Portfolio Management",
+    "question": "What is Tactical Asset Allocation (TAA) vs Strategic Asset Allocation (SAA)?",
+    "answer": "SAA establishes long-term baseline asset mix based on risk profile. TAA actively tilts allocations short-term to exploit market imbalances."
+  },
+  {
+    "id": 69,
+    "category": "Portfolio Management",
+    "question": "What is Smart Beta investment strategy?",
+    "answer": "Smart Beta rules-based indexing combines active passive characteristics by weighting components on alternative factors (value, momentum, low volatility) rather than market cap."
+  },
+  {
+    "id": 70,
+    "category": "Portfolio Management",
+    "question": "What is Maximum Drawdown (MDD)?",
+    "answer": "Maximum Drawdown measures largest peak-to-trough drop in portfolio value before new peak, quantifying downside crash risk."
+  },
+  {
+    "id": 71,
+    "category": "Portfolio Management",
+    "question": "What is Capital Market Line (CML)?",
+    "answer": "CML represents portfolios optimally combining risk-free asset with market portfolio, plotting expected return against total risk (standard deviation)."
+  },
+  {
+    "id": 72,
+    "category": "Portfolio Management",
+    "question": "What is Security Market Line (SML)?",
+    "answer": "SML graphically represents CAPM model, plotting individual security expected returns against systematic risk (Beta)."
+  },
+  {
+    "id": 73,
+    "category": "Portfolio Management",
+    "question": "What is Active Share?",
+    "answer": "Active Share measures percentage of portfolio holdings that differ from benchmark index holdings, reflecting degree of active management."
+  },
+  {
+    "id": 74,
+    "category": "Portfolio Management",
+    "question": "What is Dollar-Cost Averaging (DCA)?",
+    "answer": "DCA is investment strategy purchasing fixed dollar amount of asset at regular schedule regardless of price, reducing timing volatility impact."
+  },
+  {
+    "id": 75,
+    "category": "Portfolio Management",
+    "question": "What is ESG Investing?",
+    "answer": "ESG investing incorporates Environmental, Social, and Governance criteria into investment analysis and decision-making frameworks."
+  },
+  {
+    "id": 76,
+    "category": "Portfolio Management",
+    "question": "What is Fama-French Three-Factor Model?",
+    "answer": "Fama-French expands CAPM by adding size risk (SMB: Small Minus Big) and value risk (HML: High Minus Low) factors to market risk factor."
+  },
+  {
+    "id": 77,
+    "category": "Portfolio Management",
+    "question": "What is Risk Parity portfolio strategy?",
+    "answer": "Risk Parity allocates portfolio capital based on equalizing risk contributions from asset classes rather than allocating equal dollar amounts."
+  },
+  {
+    "id": 78,
+    "category": "Portfolio Management",
+    "question": "What is Tracking Error?",
+    "answer": "Tracking Error measures standard deviation of excess returns between portfolio and its benchmark index."
+  },
+  {
+    "id": 79,
+    "category": "Portfolio Management",
+    "question": "What is High Water Mark in hedge funds?",
+    "answer": "High Water Mark ensures performance fees are paid only on net new profits above peak historic portfolio valuation."
+  },
+  {
+    "id": 80,
+    "category": "Portfolio Management",
+    "question": "What is Carried Interest?",
+    "answer": "Carried interest represents share of profits paid to private equity/venture capital fund managers exceeding minimum hurdle return rate."
+  },
+  {
+    "id": 81,
+    "category": "Financial Accounting",
+    "question": "What are primary three financial statements and connections among them?",
+    "answer": "Income Statement reports profitability. Balance Sheet reports assets, liabilities, and equity at point in time. Cash Flow Statement tracks operating, investing, and financing cash. Net Income links Income Statement to Retained Earnings on Balance Sheet and top line Cash Flow from Operations."
+  },
+  {
+    "id": 82,
+    "category": "Financial Accounting",
+    "question": "What is Revenue Recognition Principle under ASC 606 / IFRS 15?",
+    "answer": "ASC 606 / IFRS 15 outlines 5-step framework: 1) Identify contract, 2) Identify performance obligations, 3) Determine transaction price, 4) Allocate price, 5) Recognize revenue when performance obligations are satisfied."
+  },
+  {
+    "id": 83,
+    "category": "Financial Accounting",
+    "question": "What is the difference between Accrual Accounting and Cash Accounting?",
+    "answer": "Accrual accounting recognizes revenues when earned and expenses when incurred regardless of cash settlement. Cash accounting records transactions only when cash is exchanged."
+  },
+  {
+    "id": 84,
+    "category": "Financial Accounting",
+    "question": "What is Deferred Revenue and how is it classified?",
+    "answer": "Deferred Revenue is cash received for goods/services yet to be delivered. It is recorded as a Liability on the Balance Sheet until earned."
+  },
+  {
+    "id": 85,
+    "category": "Financial Accounting",
+    "question": "What is Capitalized Expense vs Operating Expense (CapEx vs OpEx)?",
+    "answer": "CapEx expenses provide future economic benefit beyond 1 year and are capitalized as assets on Balance Sheet and depreciated over useful life. OpEx expenses are written off immediately in period incurred."
+  },
+  {
+    "id": 86,
+    "category": "Financial Accounting",
+    "question": "What is Goodwill and how is it tested under US GAAP / IFRS?",
+    "answer": "Goodwill arises when business acquisition price exceeds net fair value of identifiable assets acquired. Goodwill is tested annually for impairment rather than amortized."
+  },
+  {
+    "id": 87,
+    "category": "Financial Accounting",
+    "question": "What is Quick Ratio (Acid-Test Ratio)?",
+    "answer": "Quick Ratio evaluates immediate liquidity excluding inventory: Quick Ratio = (Cash & Equivalents + Short-Term Investments + Receivables) / Current Liabilities."
+  },
+  {
+    "id": 88,
+    "category": "Financial Accounting",
+    "question": "What is Interest Coverage Ratio?",
+    "answer": "Interest Coverage assesses capacity to meet interest debt obligations: Interest Coverage = Operating Income (EBIT) / Interest Expense."
+  },
+  {
+    "id": 89,
+    "category": "Financial Accounting",
+    "question": "What is FIFO vs LIFO inventory valuation?",
+    "answer": "FIFO (First-In, First-Out) assumes oldest inventory sold first. LIFO (Last-In, First-Out) assumes newest inventory sold first. In inflationary periods, LIFO results in higher COGS and lower taxable net income."
+  },
+  {
+    "id": 90,
+    "category": "Financial Accounting",
+    "question": "What is Impairment Charge?",
+    "answer": "Impairment charge is non-cash accounting entry write-down when asset market value drops below book carrying value on balance sheet."
+  },
+  {
+    "id": 91,
+    "category": "Financial Accounting",
+    "question": "What is Operating Lease vs Finance/Capital Lease under ASC 842?",
+    "answer": "Under ASC 842, both leases appear on balance sheet as Right-of-Use Asset and Lease Liability. Finance leases transfer asset ownership risks/rewards and record interest and depreciation separately; operating leases record straight-line rent."
+  },
+  {
+    "id": 92,
+    "category": "Financial Accounting",
+    "question": "What is Earnings Quality?",
+    "answer": "Earnings quality reflects degree to which reported net income reflects underlying economic performance without relying on temporary accounting manipulation or non-recurring adjustments."
+  },
+  {
+    "id": 93,
+    "category": "Financial Accounting",
+    "question": "What is Non-Controlling Interest (Minority Interest)?",
+    "answer": "Non-Controlling Interest is equity portion in consolidated subsidiary not owned by parent company, presented under shareholders' equity."
+  },
+  {
+    "id": 94,
+    "category": "Financial Accounting",
+    "question": "What is Deferred Tax Asset (DTA) vs Deferred Tax Liability (DTL)?",
+    "answer": "DTA arises when taxes paid exceed financial accounting tax expense (future tax credit). DTL arises when financial tax expense exceeds actual taxes paid (future tax liability)."
+  },
+  {
+    "id": 95,
+    "category": "Financial Accounting",
+    "question": "What is Net Working Capital (NWC) impact on cash flow?",
+    "answer": "Increases in current assets (like receivables/inventory) represent cash outflow. Increases in current liabilities (like payables) represent cash inflow."
+  },
+  {
+    "id": 96,
+    "category": "Financial Accounting",
+    "question": "What is Gross Margin vs Net Margin?",
+    "answer": "Gross Margin = (Revenue - COGS) / Revenue. Net Margin = Net Income / Revenue."
+  },
+  {
+    "id": 97,
+    "category": "Financial Accounting",
+    "question": "What is Treasury Stock?",
+    "answer": "Treasury Stock represents company's own shares repurchased from market, recorded as contra-equity account on balance sheet."
+  },
+  {
+    "id": 98,
+    "category": "Financial Accounting",
+    "question": "What is Free Cash Flow to Equity (FCFE)?",
+    "answer": "FCFE measures cash available to equity shareholders after operational expenses, capital expenditures, and net debt repayment: FCFE = Net Income + D&A - CapEx - Delta NWC + Net Debt Issued."
+  },
+  {
+    "id": 99,
+    "category": "Financial Accounting",
+    "question": "What is Altman Z-Score?",
+    "answer": "Altman Z-Score formula predicts bankruptcy likelihood using weighted balance sheet and income ratios."
+  },
+  {
+    "id": 100,
+    "category": "Financial Accounting",
+    "question": "What is Sarbanes-Oxley Act (SOX) Section 404?",
+    "answer": "SOX 404 requires management and independent auditors to certify effective internal control procedures over financial reporting."
+  }
+]

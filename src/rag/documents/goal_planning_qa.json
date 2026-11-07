@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "Goal Setting Frameworks",
+    "question": "What are SMART Goals and what does each letter in the acronym represent?",
+    "answer": "SMART is a goal-setting framework designed to ensure clarity and trackability. S = Specific (well-defined objective), M = Measurable (quantifiable criteria for progress), A = Achievable (realistic given resources), R = Relevant (aligned with broader personal or organizational priorities), and T = Time-bound (clear deadline or schedule)."
+  },
+  {
+    "id": 2,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the OKR (Objectives and Key Results) framework and how does it drive goal execution?",
+    "answer": "OKR is a strategic goal setting methodology that pairs a qualitative, ambitious 'Objective' (what you want to achieve) with 3 to 5 quantitative 'Key Results' (how progress is measured). OKRs drive focus, alignment, and measurable outcomes across individual, team, and enterprise levels."
+  },
+  {
+    "id": 3,
+    "category": "Goal Setting Frameworks",
+    "question": "What are Stretch Goals and what is their primary psychological and operational risk?",
+    "answer": "Stretch goals are exceptionally ambitious, high-risk targets deliberately set well beyond current operational capabilities to trigger breakthrough innovation and extreme effort. Their primary risks include employee demotivation, burn-out, unethical shortcutting, and organizational paralysis if failure is penalized."
+  },
+  {
+    "id": 4,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the HARD Goal framework (Heartfelt, Animated, Required, Difficult)?",
+    "answer": "HARD Goals are built on emotional connection and visualization: Heartfelt (intrinsically meaningful connection), Animated (vividly visualized outcomes), Required (perceived as essential to long-term survival or success), and Difficult (challenging enough to engage high cognitive focus)."
+  },
+  {
+    "id": 5,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the WOOP framework (Wish, Outcome, Obstacle, Plan) and how does Mental Contrasting work?",
+    "answer": "WOOP is a science-based goal planning technique combining Mental Contrasting (visualizing a positive Wish and its best Outcome) with Implementation Intentions (identifying the central internal Obstacle and creating an 'If-Then' Plan to overcome it)."
+  },
+  {
+    "id": 6,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the 5/25 Rule attributed to Warren Buffett in goal prioritization?",
+    "answer": "The 5/25 Rule instructs individuals to list 25 career goals, circle the top 5 most critical priorities, and actively avoid the remaining 20 goals at all costs because they act as high-value distractions that siphon focus away from the top 5."
+  },
+  {
+    "id": 7,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the BSQ Framework (Think Big, Act Small, Move Quick)?",
+    "answer": "BSQ is a execution-focused goal planning framework: 'Think Big' (define an ambitious ultimate goal), 'Act Small' (break the goal into clear, incremental milestones), and 'Move Quick' (establish tight deadlines for early quick wins to build momentum)."
+  },
+  {
+    "id": 8,
+    "category": "Goal Setting Frameworks",
+    "question": "What is Locke and Latham's Goal-Setting Theory?",
+    "answer": "Locke and Latham's theory establishes that specific and challenging goals lead to significantly higher performance than easy or vague goals ('do your best'), provided there is goal commitment, task clarity, actionable feedback, and appropriate task complexity management."
+  },
+  {
+    "id": 9,
+    "category": "Goal Setting Frameworks",
+    "question": "What are FAST Goals (Frequently discussed, Ambitious, Specific, Transparent)?",
+    "answer": "FAST goals complement traditional goal setting by emphasizing continuous execution: Frequently discussed (reviewed in routine check-ins), Ambitious (pushing boundaries), Specific (clarity of metrics), and Transparent (visible across the entire organization to foster peer accountability)."
+  },
+  {
+    "id": 10,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the Golden Circle Framework (Why, How, What) in purpose-driven goal alignment?",
+    "answer": "Pioneered by Simon Sinek, the Golden Circle structures goals by starting with 'Why' (core purpose, belief, and motivation), followed by 'How' (specific processes and principles), and ending with 'What' (tangible products, metrics, or achievements)."
+  },
+  {
+    "id": 11,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the GROW Model (Goal, Reality, Options, Will) in goal coaching?",
+    "answer": "The GROW model is a structured goal-planning framework used in executive coaching: 1) Goal (define outcome), 2) Reality (evaluate current state), 3) Options (brainstorm potential paths), and 4) Will/Way Forward (commit to specific action steps and deadlines)."
+  },
+  {
+    "id": 12,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the Eisenhower Matrix and how does it support goal execution?",
+    "answer": "The Eisenhower Matrix categorizes tasks into four quadrants based on Urgency and Importance: 1) Urgent & Important (Do), 2) Important & Not Urgent (Schedule for long-term goals), 3) Urgent & Not Important (Delegate), and 4) Not Urgent & Not Important (Eliminate)."
+  },
+  {
+    "id": 13,
+    "category": "Goal Setting Frameworks",
+    "question": "What is Backward Goal Planning (Reverse Goal Cascade)?",
+    "answer": "Backward planning starts by vividly defining the final desired deadline outcome and working backward chronologically to identify required preceding milestones, dependencies, and immediate entry-point actions."
+  },
+  {
+    "id": 14,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the Tiered Goal Taxonomy (Strategic, Tactical, Operational)?",
+    "answer": "Tiered taxonomy organizes goals hierarchically: Strategic Goals (long-term vision, 3-5 years), Tactical Goals (mid-term department/project milestones, 1-12 months), and Operational Goals (daily/weekly task execution targets)."
+  },
+  {
+    "id": 15,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the Wheel of Life in personal multi-domain goal balancing?",
+    "answer": "The Wheel of Life is a diagnostic tool assessing satisfaction across key life domains (Health, Career, Finances, Relationships, Personal Growth, Environment) to ensure balanced goal setting rather than over-indexing on a single area."
+  },
+  {
+    "id": 16,
+    "category": "Goal Setting Frameworks",
+    "question": "What is a BHAG (Big Hairy Audacious Goal)?",
+    "answer": "Coined by Collins and Porras, a BHAG is a long-term (10-30 year) organization-wide strategic goal that is compelling, visionary, and requires significant commitment and transformation to achieve (e.g., NASA's 1960s moon landing goal)."
+  },
+  {
+    "id": 17,
+    "category": "Goal Setting Frameworks",
+    "question": "What are Outcome-Based Goals vs Process-Based Goals?",
+    "answer": "Outcome goals focus strictly on the end result (e.g., winning a marathon or earning $100k), which may be influenced by external variables. Process goals focus entirely on controllable daily actions and habits required to make outcome achievement inevitable (e.g., running 5 miles every morning)."
+  },
+  {
+    "id": 18,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the OGSM Framework (Objectives, Goals, Strategies, Measures)?",
+    "answer": "OGSM turns high-level strategy into execution by mapping: Objective (qualitative direction), Goals (quantitative targets), Strategies (choices made to win), and Measures (KPIs tracking strategic implementation)."
+  },
+  {
+    "id": 19,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the Rule of 3 in daily and weekly goal planning?",
+    "answer": "The Rule of 3 recommends identifying exactly three primary outcomes to accomplish at the start of each day, week, and month, constraining focus to prevent cognitive overload from endless task lists."
+  },
+  {
+    "id": 20,
+    "category": "Goal Setting Frameworks",
+    "question": "What is the Balanced Scorecard (BSC) in enterprise goal alignment?",
+    "answer": "The Balanced Scorecard translates organizational strategy into comprehensive goals across four balanced perspectives: Financial, Customer, Internal Business Processes, and Learning & Growth."
+  },
+  {
+    "id": 21,
+    "category": "Financial & Career Goals",
+    "question": "What is the FIRE Movement (Financial Independence, Retire Early) goal strategy?",
+    "answer": "FIRE goal planning focuses on aggressive saving (often 50-70% of income) and low-cost index fund investing to accumulate a portfolio equal to 25x annual expenses, allowing retirement funded by a safe 4% withdrawal rate."
+  },
+  {
+    "id": 22,
+    "category": "Financial & Career Goals",
+    "question": "What is the 50/30/20 Rule in personal financial goal budgeting?",
+    "answer": "The 50/30/20 framework allocates net take-home pay toward three core categories: 50% for Needs (housing, utilities, food), 30% for Wants (lifestyle, entertainment), and 20% dedicated to Savings, Debt Paydown, and Financial Goals."
+  },
+  {
+    "id": 23,
+    "category": "Financial & Career Goals",
+    "question": "What is an Emergency Fund goal and how many months of expenses should it cover?",
+    "answer": "An emergency fund goal targets accumulating cash reserves in liquid, risk-free accounts to buffer against unexpected job loss or medical crises. Standard guidelines recommend 3 to 6 months of essential living expenses (or 6 to 12 months for freelancers/sole income households)."
+  },
+  {
+    "id": 24,
+    "category": "Financial & Career Goals",
+    "question": "What is Debt Snowball vs Debt Avalanche method for debt reduction goals?",
+    "answer": "Debt Snowball pays off debts from smallest balance to largest regardless of interest rate, building psychological quick wins. Debt Avalanche targets debts with the highest interest rates first, mathematically minimizing total interest paid."
+  },
+  {
+    "id": 25,
+    "category": "Financial & Career Goals",
+    "question": "What is Sinking Fund goal planning?",
+    "answer": "A Sinking Fund involves setting aside small, regular amounts of money monthly into dedicated sub-accounts for planned future capital expenses (e.g., annual insurance premiums, home repairs, vacations), preventing cash flow shocks."
+  },
+  {
+    "id": 26,
+    "category": "Financial & Career Goals",
+    "question": "What is Career Capital in long-term professional goal planning?",
+    "answer": "Career Capital represents rare and valuable skills, expertise, and networks built up over time that can be leveraged to acquire career autonomy, impact, and high financial compensation."
+  },
+  {
+    "id": 27,
+    "category": "Financial & Career Goals",
+    "question": "What is the 4% Rule in retirement financial goal planning?",
+    "answer": "The 4% Rule states that retirees can withdraw 4% of their initial invested portfolio balance in year one (adjusted for inflation in subsequent years) with a high probability of not running out of money over a 30-year retirement."
+  },
+  {
+    "id": 28,
+    "category": "Financial Career Goals",
+    "question": "What is a Individual Development Plan (IDP) in corporate career goal setting?",
+    "answer": "An IDP is a structured document negotiated between an employee and manager mapping skill gaps, learning objectives, mentorship needs, and actionable stretch assignments to prepare for future roles."
+  },
+  {
+    "id": 29,
+    "category": "Financial & Career Goals",
+    "question": "What is Goal-Based Investing (GBI)?",
+    "answer": "GBI aligns specific investment sub-portfolios and risk profiles directly with distinct life goals (e.g., aggressive growth for a 20-year child education goal, conservative fixed income for a 3-year house down payment goal)."
+  },
+  {
+    "id": 30,
+    "category": "Financial & Career Goals",
+    "question": "What is the Rule of 72 in financial growth goal forecasting?",
+    "answer": "The Rule of 72 estimates the years required to double an investment at a fixed annual interest rate by dividing 72 by the annual return rate (e.g., at an 8% return, capital doubles in 72 / 8 = 9 years)."
+  },
+  {
+    "id": 31,
+    "category": "Financial & Career Goals",
+    "question": "What is Succession Planning in enterprise career goal management?",
+    "answer": "Succession planning identifies high-potential talent within an organization and maps tailored career development goals to ensure smooth leadership transitions for business-critical roles."
+  },
+  {
+    "id": 32,
+    "category": "Financial & Career Goals",
+    "question": "What is the T-Shaped Skill Model in professional capability planning?",
+    "answer": "T-shaped planning combines deep domain expertise in one specialized field (the vertical bar of the T) with broad cross-functional collaboration capabilities across adjacent disciplines (the horizontal bar)."
+  },
+  {
+    "id": 33,
+    "category": "Financial & Career Goals",
+    "question": "What is Dollar-Cost Averaging (DCA) as a wealth accumulation goal habit?",
+    "answer": "DCA is an investment habit of depositing a fixed dollar amount into investment accounts on a strict schedule regardless of market fluctuations, automating goal progress and reducing market timing risk."
+  },
+  {
+    "id": 34,
+    "category": "Financial & Career Goals",
+    "question": "What is Skill Stacking in career competitive advantage planning?",
+    "answer": "Skill Stacking involves developing a unique combination of 3 to 5 complementary skills (e.g., Data Analysis + Public Speaking + Domain Expertise), placing an individual in the top tier of that multi-disciplinary niche."
+  },
+  {
+    "id": 35,
+    "category": "Financial & Career Goals",
+    "question": "What is Net Worth Tracking vs Cash Flow Tracking in personal finance goal review?",
+    "answer": "Cash flow tracking monitors income versus expenses over a monthly timeframe. Net worth tracking measures overall balance sheet trajectory (Total Assets minus Total Liabilities) over multi-year horizons."
+  },
+  {
+    "id": 36,
+    "category": "Financial & Career Goals",
+    "question": "What is the 'One-For-Me, One-For-Them' career growth goal rule?",
+    "answer": "A career planning strategy balancing employer immediate deliverables ('One-For-Them') with personal skill acquisition or portfolio building ('One-For-Me') within every major project assignment."
+  },
+  {
+    "id": 37,
+    "category": "Financial & Career Goals",
+    "question": "What is Lifestyle Creep and how does it compromise long-term wealth goals?",
+    "answer": "Lifestyle creep occurs when discretionary spending increases automatically alongside income raises, preventing taxpayers from converting higher salaries into increased net worth or retirement savings."
+  },
+  {
+    "id": 38,
+    "category": "Financial & Career Goals",
+    "question": "What is a Sabbatical Plan in long-term career planning?",
+    "answer": "A planned, extended leave from work (e.g., 3 to 12 months) funded by targeted financial savings to prevent burnout, pursue skill acquisition, or explore new creative domains."
+  },
+  {
+    "id": 39,
+    "category": "Financial & Career Goals",
+    "question": "What is Zero-Based Budgeting (ZBB) in goal-driven resource allocation?",
+    "answer": "ZBB forces every dollar of income to be deliberately assigned to a specific category (living expenses, debt, or goal savings) at the start of each month, leaving exactly zero unallocated dollars."
+  },
+  {
+    "id": 40,
+    "category": "Financial & Career Goals",
+    "question": "What is the Career Anchor Theory by Edgar Schein?",
+    "answer": "Schein's theory identifies core self-perceived values (e.g., Autonomy, Technical Competence, Security, Entrepreneurial Creativity) that individuals refuse to sacrifice when planning career goals."
+  },
+  {
+    "id": 41,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Habit Stacking in habit-based goal planning?",
+    "answer": "Pioneered by BJ Fogg and James Clear, Habit Stacking pairs a desired new daily habit with an established existing habit using the formula: 'After [CURRENT HABIT], I will [NEW HABIT]'."
+  },
+  {
+    "id": 42,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Implementation Intentions ('If-Then' Planning)?",
+    "answer": "Implementation intentions explicitly map out when, where, and how an action will be taken using the formula: 'If situation X arises, then I will perform response Y', pre-programing behavioral triggers."
+  },
+  {
+    "id": 43,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is the 2-Minute Rule in overcoming goal initiation friction?",
+    "answer": "The 2-Minute Rule states that when starting a new goal habit, it should take less than two minutes to execute (e.g., 'read one page' or 'put on running shoes') to lower activation energy and build consistency."
+  },
+  {
+    "id": 44,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Identity-Based Goal Setting vs Outcome-Based Goal Setting?",
+    "answer": "Identity-based goal setting focuses on shifting core beliefs about who you are rather than what you want to achieve (e.g., 'I am a writer who writes daily' vs 'I want to write a book')."
+  },
+  {
+    "id": 45,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is the Habit Loop model (Cue, Craving, Response, Reward)?",
+    "answer": "The Habit Loop models the neurological cycle behind behavior: 1) Cue (trigger), 2) Craving (motivational desire), 3) Response (the action/habit performed), and 4) Reward (satisfaction that reinforces the cue)."
+  },
+  {
+    "id": 46,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Present Bias and Temporal Discounting in long-term goal failure?",
+    "answer": "Present bias is the psychological tendency to over-value immediate smaller rewards (e.g., watching TV) while drastically discounting the future value of larger delayed rewards (e.g., long-term health or wealth)."
+  },
+  {
+    "id": 47,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Commitment Device in behavioral goal enforcement?",
+    "answer": "A commitment device is a choice made in the present that locks in future behavior by making non-compliance costly, embarrassing, or impossible (e.g., pre-paying a non-refundable personal trainer or using app blockers)."
+  },
+  {
+    "id": 48,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is the Goldilocks Rule in optimal motivation maintenance?",
+    "answer": "The Goldilocks Rule states that human motivation peaks when working on tasks that are right on the edge of current abilities\u2014neither too difficult (anxiety-inducing) nor too easy (boredom-inducing)."
+  },
+  {
+    "id": 49,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Temptation Bundling?",
+    "answer": "Temptation bundling pairs an action you need to do to hit a long-term goal with an action you want to do (e.g., only listening to a favorite podcast while exercising on the treadmill)."
+  },
+  {
+    "id": 50,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is the Progress Principle in daily goal motivation?",
+    "answer": "Discovered by Teresa Amabile, the Progress Principle proves that of all events that boost motivation during a workday, the single most powerful factor is making meaningful incremental progress on important work."
+  },
+  {
+    "id": 51,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is the Planning Fallacy in goal timeline estimation?",
+    "answer": "The Planning Fallacy is a cognitive bias where individuals consistently underestimate the time, costs, and risks required to complete future tasks, even when possessing past experience with similar projects."
+  },
+  {
+    "id": 52,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is the Seinfeld 'Don't Break the Chain' goal tracking method?",
+    "answer": "A visual habit consistency strategy where every day a target goal action is completed, a big red 'X' is drawn on a wall calendar, shifting focus to maintaining an unbroken daily visual streak."
+  },
+  {
+    "id": 53,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Friction Reduction in habit environment design?",
+    "answer": "Environment design technique that minimizes the physical or cognitive steps required to perform good habits (e.g., laying out workout clothes the night before) while increasing friction for bad habits."
+  },
+  {
+    "id": 54,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Goal Competition and Cognitive Overload?",
+    "answer": "Goal competition occurs when an individual attempts to pursue too many major goals simultaneously, causing divided executive focus, decision fatigue, and failure across all targets."
+  },
+  {
+    "id": 55,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is the 'What-the-Hell Effect' (Abstinence Violation Effect) in goal slips?",
+    "answer": "A psychological cycle where a minor goal lapse (e.g., eating one cookie while dieting) triggers feelings of total failure, leading to complete abandonment of self-control ('what the hell, I already ruined it')."
+  },
+  {
+    "id": 56,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Loss Aversion in goal incentive design?",
+    "answer": "Loss aversion states that the psychological pain of losing something is roughly twice as powerful as the pleasure of gaining an equivalent item. Goal contracts leveraging financial stakes leverage this to boost compliance."
+  },
+  {
+    "id": 57,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Goal Visuospatial Mapping (Vision Boards / Digital Dashboard)?",
+    "answer": "Visual representation of target outcomes that provides frequent environmental cues, activating the brain's Reticular Activating System (RAS) to heighten awareness of goal-relevant opportunities."
+  },
+  {
+    "id": 58,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Accountability Partnering and what makes it effective?",
+    "answer": "Accountability partnering involves scheduling regular, non-judgmental check-ins with a peer or coach to report progress against promises, leveraging social expectations to drive execution."
+  },
+  {
+    "id": 59,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is the Zeigarnik Effect and how does it drive goal task completion?",
+    "answer": "The Zeigarnik Effect describes the psychological tendency for uncompleted or interrupted tasks to create cognitive intrusion, keeping the brain fixated on finishing the opened mental loop."
+  },
+  {
+    "id": 60,
+    "category": "Behavioral Psychology & Execution",
+    "question": "What is Ego Depletion and why are morning routines recommended for key goals?",
+    "answer": "Ego depletion asserts that willpower is a limited daily cognitive resource depleted by decisions and stress. Scheduling highest-priority goal work in the morning ensures execution before willpower is exhausted."
+  },
+  {
+    "id": 61,
+    "category": "Project Management & KPIs",
+    "question": "What is the difference between Lead Indicators and Lag Indicators in goal tracking?",
+    "answer": "Lag indicators measure the ultimate outcome after the fact (e.g., total quarterly revenue or weight lost). Lead indicators track controllable, predictive actions taken in real-time that directly drive the lag result (e.g., sales calls made or weekly workout hours)."
+  },
+  {
+    "id": 62,
+    "category": "Project Management & KPIs",
+    "question": "What is Time Blocking and how does it protect deep goal work?",
+    "answer": "Time blocking is a time architecture method that divides the day into dedicated time blocks assigned exclusively to specific goal initiatives, eliminating open-ended reactive work."
+  },
+  {
+    "id": 63,
+    "category": "Project Management & KPIs",
+    "question": "What is the 12-Week Year framework for goal execution?",
+    "answer": "Pioneered by Moran and Lennington, the 12-Week Year redefines a 'year' as 12 weeks, eliminating end-of-year deadline complacency and driving intense focus and urgency across short cycles."
+  },
+  {
+    "id": 64,
+    "category": "Project Management & KPIs",
+    "question": "What is a Critical Path in goal project planning?",
+    "answer": "In project management, the Critical Path is the longest sequence of dependent tasks that must be completed on time to ensure the overall project meets its final target deadline."
+  },
+  {
+    "id": 65,
+    "category": "Project Management & KPIs",
+    "question": "What is Pareto Principle (80/20 Rule) in goal optimization?",
+    "answer": "The Pareto Principle asserts that roughly 80% of achieved goal outcomes result from 20% of high-leverage efforts, guiding planners to isolate and amplify critical activities."
+  },
+  {
+    "id": 66,
+    "category": "Project Management & KPIs",
+    "question": "What is Parkinson's Law and how does it impact deadline selection?",
+    "answer": "Parkinson's Law states that 'work expands to fill the time allotted for its completion.' Setting intentionally tight, realistic deadlines prevents task procrastination and scope inflation."
+  },
+  {
+    "id": 67,
+    "category": "Project Management & KPIs",
+    "question": "What is a Sprint in Agile goal execution?",
+    "answer": "In Agile project management, a Sprint is a fixed-length timebox (typically 1 to 4 weeks) where a team focuses exclusively on completing a specific set of actionable deliverables."
+  },
+  {
+    "id": 68,
+    "category": "Project Management & KPIs",
+    "question": "What is a Pre-Mortem Analysis in goal risk mitigation?",
+    "answer": "A Pre-Mortem is a strategic exercise conducted before launching a goal initiative where the team assumes the project has failed catastrophically and works backward to identify potential causes and preventive steps."
+  },
+  {
+    "id": 69,
+    "category": "Project Management & KPIs",
+    "question": "What is Scope Creep and how does it derail goal delivery?",
+    "answer": "Scope creep refers to the uncontrolled growth of project requirements or features without corresponding increases in time, budget, or resources, leading to missed deadlines."
+  },
+  {
+    "id": 70,
+    "category": "Project Management & KPIs",
+    "question": "What is a Kanban Board in visual goal management?",
+    "answer": "A Kanban board visually categorizes goal tasks into sequential status columns (e.g., 'Backlog', 'To Do', 'In Progress', 'Done') and enforces Work-In-Progress (WIP) limits to optimize throughput."
+  },
+  {
+    "id": 71,
+    "category": "Project Management & KPIs",
+    "question": "What is Work Breakdown Structure (WBS)?",
+    "answer": "WBS is a deliverable-oriented decomposition of a major complex goal project into smaller, manageable sub-components and discrete work packages."
+  },
+  {
+    "id": 72,
+    "category": "Project Management & KPIs",
+    "question": "What is a Weekly Review in personal productivity systems?",
+    "answer": "A routine weekly operational practice (popularized in GTD) where an individual clears inboxes, reviews past week goal metrics, updates project lists, and selects top priorities for the upcoming week."
+  },
+  {
+    "id": 73,
+    "category": "Project Management & KPIs",
+    "question": "What is Key Performance Indicator (KPI) Dashboards?",
+    "answer": "A visual data hub displaying real-time metrics tracking goal performance against target baselines, enabling rapid operational course corrections."
+  },
+  {
+    "id": 74,
+    "category": "Project Management & KPIs",
+    "question": "What is Day Theming in executive goal time allocation?",
+    "answer": "Day Theming assigns overarching functional focus areas to specific days of the week (e.g., 'Marketing Mondays', 'Product Tuesdays', 'Administrative Fridays') to minimize context-switching costs."
+  },
+  {
+    "id": 75,
+    "category": "Project Management & KPIs",
+    "question": "What is the Pomodoro Technique and its role in sustained goal focus?",
+    "answer": "A time management framework breaking goal execution into 25-minute periods of intense focus followed by 5-minute short breaks, maintaining mental stamina over extended work blocks."
+  },
+  {
+    "id": 76,
+    "category": "Project Management & KPIs",
+    "question": "What is RACI Matrix in team goal responsibility mapping?",
+    "answer": "A RACI matrix assigns roles for goal project tasks: Responsible (does the work), Accountable (final decision maker), Consulted (provides input), and Informed (kept updated)."
+  },
+  {
+    "id": 77,
+    "category": "Project Management & KPIs",
+    "question": "What is Dependency Mapping in goal planning?",
+    "answer": "Dependency mapping identifies sequencing relationships between goal tasks (e.g., Task B cannot start until Task A finishes), highlighting potential execution bottlenecks."
+  },
+  {
+    "id": 78,
+    "category": "Project Management & KPIs",
+    "question": "What is a Milestone Trend Analysis (MTA)?",
+    "answer": "MTA tracks completion date predictions for key project milestones over time, providing early warning signals when milestone completion dates trend past target deadlines."
+  },
+  {
+    "id": 79,
+    "category": "Project Management & KPIs",
+    "question": "What is Work-In-Progress (WIP) Limits in goal task management?",
+    "answer": "WIP limits restrict the maximum number of active goal tasks permitted in an 'In Progress' state simultaneously, forcing task completion before new work is initiated."
+  },
+  {
+    "id": 80,
+    "category": "Project Management & KPIs",
+    "question": "What is Time Tracking Audit in personal goal planning?",
+    "answer": "A quantitative exercise logging every 15-30 minute window across a week to uncover hidden time sinks and measure actual time spent on goal priorities versus low-value tasks."
+  },
+  {
+    "id": 81,
+    "category": "Adaptability & Resilience",
+    "question": "What is Goal Pivot vs Goal Persistence (Perseverance)?",
+    "answer": "Goal persistence is maintaining commitment to a target despite obstacles. A goal pivot involves strategically modifying or abandoning a goal when changing external realities or new data make the original objective suboptimal or obsolete."
+  },
+  {
+    "id": 82,
+    "category": "Adaptability & Resilience",
+    "question": "What is the Sunk Cost Fallacy in goal commitment?",
+    "answer": "The Sunk Cost Fallacy is the irrational tendency to continue investing time, money, or effort into a failing goal simply because of resources already spent, rather than evaluating future net value."
+  },
+  {
+    "id": 83,
+    "category": "Adaptability & Resilience",
+    "question": "What is Retrospective (Retro) in team goal review?",
+    "answer": "A retrospective is a structured meeting held at the end of a project or sprint cycle to reflect on three questions: What went well? What went wrong? What will we do differently next cycle?"
+  },
+  {
+    "id": 84,
+    "category": "Adaptability & Resilience",
+    "question": "What is Goal Fatigue / Burnout and how is it mitigated?",
+    "answer": "Goal fatigue is physical and emotional exhaustion caused by relentless high-stakes target striving without adequate recovery. Mitigation requires strategic rest periods, celebration of micro-wins, and workload rebalancing."
+  },
+  {
+    "id": 85,
+    "category": "Adaptability & Resilience",
+    "question": "What is Strategic Alignment in enterprise goal cascade?",
+    "answer": "Strategic alignment ensures that every individual and team goal directly supports and connects upward to the overarching organizational mission and long-term business strategy."
+  },
+  {
+    "id": 86,
+    "category": "Adaptability & Resilience",
+    "question": "What is Growth Mindset (Carol Dweck) and its impact on goal failure recovery?",
+    "answer": "A Growth Mindset views intelligence and talent as malleable qualities developed through effort, strategy, and learning. It treats goal setbacks as instructive feedback rather than proof of personal limitation."
+  },
+  {
+    "id": 87,
+    "category": "Adaptability & Resilience",
+    "question": "What is Psychological Safety in goal setting environments?",
+    "answer": "Psychological safety is a shared belief that a team environment is safe for interpersonal risk-taking, allowing members to set ambitious goals, report mistakes early, and ask for help without fear of ridicule or retribution."
+  },
+  {
+    "id": 88,
+    "category": "Adaptability & Resilience",
+    "question": "What is Goal Recalibration during external macroeconomic disruptions?",
+    "answer": "Goal recalibration involves systematically reviewing and adjusting target metrics, budgets, or timelines in response to major unexpected shifts in economic, market, or industry environments."
+  },
+  {
+    "id": 89,
+    "category": "Adaptability & Resilience",
+    "question": "What is celebrating Micro-Wins (Small Successes) in long-term goal endurance?",
+    "answer": "Systematically acknowledging minor milestones triggers dopamine releases in the brain, reinforcing self-efficacy and sustaining long-term motivation across multi-year initiatives."
+  },
+  {
+    "id": 90,
+    "category": "Adaptability & Resilience",
+    "question": "What is Continuous Feedback Loops vs Annual Performance Review in goal management?",
+    "answer": "Continuous feedback loops replace outdated annual reviews with real-time weekly or bi-weekly check-ins, allowing continuous course corrections, agile goal adjustments, and active support."
+  },
+  {
+    "id": 91,
+    "category": "Adaptability & Resilience",
+    "question": "What is Goal Conflict Resolution when personal and professional goals collide?",
+    "answer": "Process of identifying overlapping resource demands (time, energy, money) between personal and work goals, establishing clear boundary rules, and setting realistic seasonal priority trade-offs."
+  },
+  {
+    "id": 92,
+    "category": "Adaptability & Resilience",
+    "question": "What is the Stockdale Paradox in resilient goal execution?",
+    "answer": "Named after Admiral James Stockdale, the paradox advocates maintaining unwavering faith that you will prevail in the end while simultaneously confronting the most brutal realities of your current situation."
+  },
+  {
+    "id": 93,
+    "category": "Adaptability & Resilience",
+    "question": "What is Post-Goal Depression (Arrival Fallacy)?",
+    "answer": "The illusion that reaching a long-sought goal will bring permanent happiness, often resulting in temporary emptiness once achieved unless followed by purposeful new growth objectives."
+  },
+  {
+    "id": 94,
+    "category": "Adaptability & Resilience",
+    "question": "What is Cognitive Flexibility in dynamic goal strategy execution?",
+    "answer": "The mental capacity to switch between different concepts, adjust strategies rapidly when encountering unexpected obstacles, and consider multiple creative solutions to achieve target outcomes."
+  },
+  {
+    "id": 95,
+    "category": "Adaptability & Resilience",
+    "question": "What is Goal Autonomy (Self-Determination Theory) and its role in intrinsic motivation?",
+    "answer": "Self-Determination Theory proves that goals pursued out of personal choice and autonomy generate higher persistence, creativity, and satisfaction than goals forced by external pressure or fear."
+  },
+  {
+    "id": 96,
+    "category": "Adaptability & Resilience",
+    "question": "What is Red Teaming in goal plan stress-testing?",
+    "answer": "Red Teaming deploys an independent group to play the role of an adversary or harsh critic, aggressively challenging assumptions, finding vulnerabilities, and stress-testing goal plans before execution."
+  },
+  {
+    "id": 97,
+    "category": "Adaptability & Resilience",
+    "question": "What is the Role of Self-Compassion in goal recovery after failure?",
+    "answer": "Research by Kristin Neff shows that treating oneself with kindness and understanding after a goal setback (rather than harsh self-criticism) increases emotional resilience and speeds up constructive problem-solving."
+  },
+  {
+    "id": 98,
+    "category": "Adaptability & Resilience",
+    "question": "What is a Goal Audit in organizational planning?",
+    "answer": "A systematic review evaluating active organizational goals against current performance data to sunset redundant targets, reallocate underfunded resources, and ensure strategic alignment."
+  },
+  {
+    "id": 99,
+    "category": "Adaptability & Resilience",
+    "question": "What is Locus of Control (Internal vs External) in goal ownership?",
+    "answer": "Individuals with an Internal Locus of Control believe their actions directly determine their outcomes, leading to higher goal ownership and initiative compared to those with an External Locus of Control (who blame luck or circumstance)."
+  },
+  {
+    "id": 100,
+    "category": "Adaptability & Resilience",
+    "question": "What is the 'Habit of Finishing' in personal effectiveness?",
+    "answer": "The psychological discipline of bringing current projects and goal commitments to complete closure before launching new initiatives, avoiding a backlog of half-finished projects."
+  }
+]

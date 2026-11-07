@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is taxation and what are its primary macroeconomic objectives?",
+    "answer": "Taxation is a mandatory financial charge or levy imposed on individuals or entities by a government authority. Its primary macroeconomic objectives are funding public goods and services (infrastructure, defense, healthcare), redistributing wealth to reduce income inequality, stabilizing the economy during business cycles, and influencing behavior through pigouvian incentives."
+  },
+  {
+    "id": 2,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is the difference between Direct Taxes and Indirect Taxes?",
+    "answer": "Direct taxes are levied directly on an individual's or entity's income, wealth, or profits, and the tax burden cannot be shifted to another party (e.g., Personal Income Tax, Corporate Tax). Indirect taxes are levied on goods and services, and the tax burden is shifted onto the ultimate consumer (e.g., Sales Tax, Value Added Tax, Goods and Services Tax)."
+  },
+  {
+    "id": 3,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What are Progressive, Regressive, and Proportional (Flat) Tax structures?",
+    "answer": "A Progressive tax structure imposes higher tax rates on higher-income earners (e.g., income tax brackets). A Regressive tax structure takes a larger percentage of income from low-income earners than from high-income earners (e.g., flat sales taxes on essential goods). A Proportional (Flat) tax applies the exact same percentage tax rate to all income levels."
+  },
+  {
+    "id": 4,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is Marginal Tax Rate vs Effective Tax Rate?",
+    "answer": "The Marginal Tax Rate is the tax rate applied to the very last dollar of taxable income earned (the highest tax bracket reached). The Effective Tax Rate is the actual total percentage of total income paid in taxes: Effective Rate = (Total Tax Owed / Total Taxable Income) * 100."
+  },
+  {
+    "id": 5,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What are Adam Smith's Four Canons of Taxation?",
+    "answer": "Adam Smith's four canons are: 1) Canon of Equality (taxes based on ability to pay), 2) Canon of Certainty (clear, non-arbitrary tax rules), 3) Canon of Convenience (collected at a convenient time and manner), and 4) Canon of Economy (collection costs minimized relative to revenue raised)."
+  },
+  {
+    "id": 6,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is the Laffer Curve and what does it demonstrate?",
+    "answer": "The Laffer Curve is a theoretical curve illustrating the relationship between tax rates and total government tax revenue. It demonstrates that increasing tax rates beyond a certain optimal point disincentivizes economic activity, ultimately reducing total tax revenue collected."
+  },
+  {
+    "id": 7,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is Tax Incidence (Flypaper Theory vs Economic Burden)?",
+    "answer": "Tax incidence describes who ultimately bears the economic burden of a tax, regardless of who legally pays it. Statutory incidence rests on the party legally obligated to remit the tax; economic incidence depends on price elasticities of supply and demand."
+  },
+  {
+    "id": 8,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is a Tax Base and Tax Elasticity?",
+    "answer": "The Tax Base is the total monetary value of assets, income, or transactions subject to taxation. Tax Elasticity measures the percentage change in tax revenue relative to a percentage change in overall economic growth or tax rates."
+  },
+  {
+    "id": 9,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is the difference between Tax Avoidance, Tax Evasion, and Tax Planning?",
+    "answer": "Tax Planning is the legal optimization of financial affairs using provisions built into tax law. Tax Avoidance uses legal loopholes and structure to minimize tax liabilities. Tax Evasion is the illegal non-payment or underpayment of taxes through fraud, deliberate misrepresentation, or concealment."
+  },
+  {
+    "id": 10,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is a Pigouvian Tax?",
+    "answer": "A Pigouvian tax is an indirect tax levied on economic activities that generate negative external costs to society (e.g., carbon emissions tax, tobacco tax), designed to internalize the external social cost into market prices."
+  },
+  {
+    "id": 11,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is Tax Bracket Creep (Bracket Creep)?",
+    "answer": "Bracket Creep occurs when inflation pushes nominal income into higher tax brackets, resulting in an effective tax rate increase without a corresponding increase in real purchasing power."
+  },
+  {
+    "id": 12,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is Statutory Income vs Taxable Income?",
+    "answer": "Statutory Gross Income encompasses all gross income earned from wages, dividends, interest, and business operations required to be reported by law. Taxable Income is gross income minus allowable statutory deductions, exemptions, and allowances."
+  },
+  {
+    "id": 13,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is Tax Expenditure?",
+    "answer": "Tax expenditures are revenue losses attributable to special provisions of federal or state tax laws, such as exemptions, deductions, credits, preferential tax rates, or tax deferrals."
+  },
+  {
+    "id": 14,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is the Benefit Principle vs Ability-to-Pay Principle?",
+    "answer": "The Benefit Principle states that individuals should pay taxes in proportion to the government services or benefits they receive (e.g., gas taxes funding highways). The Ability-to-Pay Principle asserts that tax burdens should be allocated based on an individual's financial capacity."
+  },
+  {
+    "id": 15,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is Horizontal Equity vs Vertical Equity in tax system design?",
+    "answer": "Horizontal Equity dictates that taxpayers in identical economic situations with equal income should pay equal taxes. Vertical Equity dictates that taxpayers with greater financial capacity should pay proportionally more taxes than those with lower capacity."
+  },
+  {
+    "id": 16,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is Value-Added Tax (VAT) and how does the invoice-credit method work?",
+    "answer": "VAT is a consumption tax levied at each stage of the supply chain where value is added. Under the invoice-credit method, businesses pay tax on their total sales output but claim a tax credit for the VAT paid on input purchases, taxing only net value added."
+  },
+  {
+    "id": 17,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is Withholding Tax (Pay-As-You-Earn / PAYE)?",
+    "answer": "Withholding tax requires employers or payers to deduct income tax directly from an employee's salary or a contractor's payment at the source and remit it directly to the government on their behalf throughout the tax year."
+  },
+  {
+    "id": 18,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is a Wealth Tax vs Capital Gains Tax?",
+    "answer": "A Wealth Tax is an annual levy imposed on the total net worth of accumulated assets owned by a taxpayer above a threshold. A Capital Gains Tax is levied strictly on realized profits earned from selling capital assets (e.g., stocks, real estate)."
+  },
+  {
+    "id": 19,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is Tax Amnesty?",
+    "answer": "Tax Amnesty is a limited-time opportunity offered by governments allowing taxpayers who have failed to report income or pay taxes to settle outstanding tax obligations without facing criminal prosecution or severe penalties."
+  },
+  {
+    "id": 20,
+    "category": "Fundamentals & Tax Policy",
+    "question": "What is Deadweight Loss (Excess Burden) of taxation?",
+    "answer": "Deadweight Loss measures the net loss of overall economic efficiency and societal consumer/producer surplus caused by price distortions created by taxes, where reduced output exceeds total tax revenue collected."
+  },
+  {
+    "id": 21,
+    "category": "Personal Taxation & Credits",
+    "question": "What is Adjusted Gross Income (AGI)?",
+    "answer": "Adjusted Gross Income (AGI) is total gross income earned minus specific allowable above-the-line deductions (such as student loan interest, retirement contributions, or health savings account contributions) before applying itemized or standard deductions."
+  },
+  {
+    "id": 22,
+    "category": "Personal Taxation & Credits",
+    "question": "What is the difference between a Standard Deduction and Itemized Deductions?",
+    "answer": "The Standard Deduction is a fixed dollar amount that reduces taxable income without requiring documentation. Itemized Deductions allow taxpayers to claim specific eligible out-of-pocket expenses (e.g., mortgage interest, state/local taxes, charitable donations) if the sum exceeds the standard deduction."
+  },
+  {
+    "id": 23,
+    "category": "Personal Taxation & Credits",
+    "question": "What is the difference between a Tax Deduction and a Tax Credit?",
+    "answer": "A Tax Deduction reduces total taxable income, yielding tax savings proportional to the marginal tax bracket (e.g., a $1,000 deduction saves $220 in a 22% bracket). A Tax Credit directly reduces dollar-for-dollar the final tax liability owed (e.g., a $1,000 credit saves $1,000)."
+  },
+  {
+    "id": 24,
+    "category": "Personal Taxation & Credits",
+    "question": "What is a Refundable Tax Credit vs Non-Refundable Tax Credit?",
+    "answer": "A Non-Refundable Tax Credit can reduce tax liability down to zero, but any remaining credit amount is forfeited. A Refundable Tax Credit reduces tax liability to zero and pays the remaining excess balance directly back to the taxpayer as a tax refund check."
+  },
+  {
+    "id": 25,
+    "category": "Personal Taxation & Credits",
+    "question": "How are Short-Term and Long-Term Capital Gains taxed differently for individuals?",
+    "answer": "Short-Term Capital Gains (assets held for 1 year or less) are taxed at standard ordinary personal income tax rates. Long-Term Capital Gains (assets held longer than 1 year) benefit from reduced statutory preferential tax rates (typically 0%, 15%, or 20%)."
+  },
+  {
+    "id": 26,
+    "category": "Personal Taxation & Credits",
+    "question": "What is the Cost Basis of an asset and how is it calculated?",
+    "answer": "Cost Basis represents the original purchase price paid for an asset plus eligible acquisition costs (commissions, legal fees) and capital upgrades, minus accumulated depreciation. It determines taxable gain or loss upon asset disposal."
+  },
+  {
+    "id": 27,
+    "category": "Personal Taxation & Credits",
+    "question": "What is the Wash-Sale Rule in personal investment taxation?",
+    "answer": "The Wash-Sale Rule disallows claiming a tax loss on the sale of a security if the investor purchases a 'substantially identical' stock or security within a 61-day window surrounding the sale (30 days before, the day of, or 30 days after)."
+  },
+  {
+    "id": 28,
+    "category": "Personal Taxation & Credits",
+    "question": "What is a Traditional 401(k) / IRA vs Roth 401(k) / IRA tax structure?",
+    "answer": "Traditional accounts use pre-tax contributions, reducing current-year taxable income, but distributions in retirement are fully taxed as ordinary income. Roth accounts use post-tax income (no upfront tax deduction), but qualified withdrawals in retirement are 100% tax-free."
+  },
+  {
+    "id": 29,
+    "category": "Personal Taxation & Credits",
+    "question": "What is Health Savings Account (HSA) Triple Tax Advantage?",
+    "answer": "HSA triple tax benefits: 1) Contributions are pre-tax or tax-deductible, 2) Account investment growth and interest earnings accumulate tax-free, and 3) Withdrawals spent on qualified medical expenses are completely tax-free."
+  },
+  {
+    "id": 30,
+    "category": "Personal Taxation & Credits",
+    "question": "What is the Earned Income Tax Credit (EITC)?",
+    "answer": "The EITC is a refundable tax credit designed for low- to moderate-income working individuals and families, structured to supplement wages and offset payroll tax burdens."
+  },
+  {
+    "id": 31,
+    "category": "Personal Taxation & Credits",
+    "question": "What is Alternative Minimum Tax (AMT)?",
+    "answer": "AMT is a parallel tax system designed to ensure high-income individuals who benefit from substantial tax deductions pay at least a baseline minimum percentage of income tax by adding back certain tax preferences."
+  },
+  {
+    "id": 32,
+    "category": "Personal Taxation & Credits",
+    "question": "What is State and Local Tax (SALT) Deduction?",
+    "answer": "The SALT deduction allows taxpayers who itemize to deduct state and local income, sales, and real estate property taxes paid, subject to statutory statutory cap limits."
+  },
+  {
+    "id": 33,
+    "category": "Personal Taxation & Credits",
+    "question": "What is Tax-Loss Harvesting?",
+    "answer": "Tax-Loss Harvesting is the strategy of selling underperforming investment securities at a loss to offset realized taxable capital gains earned elsewhere in the portfolio, reducing overall net capital gains taxes."
+  },
+  {
+    "id": 34,
+    "category": "Personal Taxation & Credits",
+    "question": "What is Step-Up in Basis upon inheritance?",
+    "answer": "Step-Up in Basis resets the cost basis of inherited property or assets to its fair market value on the date of the original owner's death, eliminating taxable gains accumulated during the deceased's lifetime."
+  },
+  {
+    "id": 35,
+    "category": "Personal Taxation & Credits",
+    "question": "What is Qualified Dividend vs Non-Qualified (Ordinary) Dividend?",
+    "answer": "Qualified dividends meet specific holding period requirements and are taxed at lower long-term capital gains tax rates. Non-qualified dividends are taxed as regular ordinary income."
+  },
+  {
+    "id": 36,
+    "category": "Personal Taxation & Credits",
+    "question": "What is FICA Tax (Social Security and Medicare payroll tax)?",
+    "answer": "FICA (Federal Insurance Contributions Act) is a mandatory dedicated payroll tax paid by both employees and employers to fund Social Security retirement benefits and Medicare healthcare coverage."
+  },
+  {
+    "id": 37,
+    "category": "Personal Taxation & Credits",
+    "question": "What is Primary Residence Capital Gains Exclusion?",
+    "answer": "Tax provisions allowing homeowners to exclude up to specified statutory profit limits from capital gains tax upon selling a primary home, provided they owned and lived in the home for at least 2 out of the prior 5 years."
+  },
+  {
+    "id": 38,
+    "category": "Personal Taxation & Credits",
+    "question": "What is Gift Tax and Lifetime Gift Tax Exemption?",
+    "answer": "Gift Tax is levied on the transfer of property or money to another person without receiving full value in return. The Lifetime Exemption allows individuals to give up to a statutory threshold across their lifetime without paying gift tax."
+  },
+  {
+    "id": 39,
+    "category": "Personal Taxation & Credits",
+    "question": "What is Required Minimum Distribution (RMD)?",
+    "answer": "An RMD is the mandatory minimum amount that retirement plan account owners must withdraw annually from Traditional IRAs or 401(k)s starting at a designated statutory age."
+  },
+  {
+    "id": 40,
+    "category": "Personal Taxation & Credits",
+    "question": "What is Passive Activity Loss (PAL) Restriction?",
+    "answer": "PAL rules restrict taxpayers from using net financial losses generated by passive business activities or real estate investments to offset non-passive active income (such as salaries or business profits)."
+  },
+  {
+    "id": 41,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Corporate Income Tax and how are corporations taxed?",
+    "answer": "Corporate Income Tax is levied on the net taxable profits earned by C-Corporations (Revenue minus allowable cost of goods sold, operating expenses, interest, and depreciation) before profits are distributed to shareholders."
+  },
+  {
+    "id": 42,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Double Taxation in corporate structures?",
+    "answer": "Double Taxation occurs when corporate net income is taxed twice: first at the entity level via corporate income tax, and second at the individual shareholder level when profits are distributed as dividends."
+  },
+  {
+    "id": 43,
+    "category": "Corporate Taxation & Business",
+    "question": "What is a Pass-Through Entity (S-Corp, Partnership, LLC)?",
+    "answer": "A Pass-Through Entity does not pay entity-level corporate income tax. Instead, net business profits, losses, and credits pass through directly to the owners' or partners' personal income tax returns."
+  },
+  {
+    "id": 44,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Depreciation and MACRS (Modified Accelerated Cost Recovery System)?",
+    "answer": "Depreciation is an income tax deduction allowing businesses to recover the cost of tangible capital assets over their useful life. MACRS accelerates tax depreciation deductions in early asset usage years."
+  },
+  {
+    "id": 45,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Section 179 Expense Deduction vs Bonus Depreciation?",
+    "answer": "Section 179 allows small businesses to deduct the full purchase price of eligible equipment in the year purchased up to statutory caps. Bonus Depreciation allows deducting a statutory percentage of asset cost immediately without dollar cap limits."
+  },
+  {
+    "id": 46,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Net Operating Loss (NOL) Carryforward and Carryback?",
+    "answer": "An NOL occurs when allowable tax deductions exceed business gross income. NOL provisions permit businesses to carry net losses forward (or back) to offset future (or past) taxable profits, reducing tax liabilities."
+  },
+  {
+    "id": 47,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Transfer Pricing in corporate tax compliance?",
+    "answer": "Transfer Pricing governs intercompany transactions and charges for goods, services, or intellectual property exchanged between related entities within a multinational enterprise, requiring arm's-length pricing."
+  },
+  {
+    "id": 48,
+    "category": "Corporate Taxation & Business",
+    "question": "What is the Arm's-Length Principle?",
+    "answer": "The Arm's-Length Principle requires prices charged in transactions between related corporate entities (subsidiaries) to match prices that independent, unrelated parties would agree upon under identical conditions."
+  },
+  {
+    "id": 49,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Base Erosion and Profit Shifting (BEPS)?",
+    "answer": "BEPS refers to tax planning strategies used by multinational firms that exploit gaps and mismatches in tax rules to artificially shift corporate profits to low- or zero-tax jurisdictions."
+  },
+  {
+    "id": 50,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Corporate Tax Haven?",
+    "answer": "A Tax Haven is a jurisdiction offering foreign corporations exceptionally low or zero corporate tax rates alongside strict financial privacy laws and minimal regulatory oversight."
+  },
+  {
+    "id": 51,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Research and Development (R&D) Tax Credit?",
+    "answer": "The R&D tax credit provides businesses a dollar-for-dollar tax credit incentive for incurring qualified research expenses associated with developing or improving products, algorithms, or manufacturing processes."
+  },
+  {
+    "id": 52,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Tax Inversion (Corporate Inversion)?",
+    "answer": "Corporate Inversion is a transaction where a domestic corporation restructures by acquiring a smaller foreign company, relocating its legal headquarters overseas to lower global corporate tax burdens."
+  },
+  {
+    "id": 53,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Book-Tax Difference (Permanent vs Temporary Differences)?",
+    "answer": "Book-tax differences represent discrepancies between financial accounting Net Income (GAAP/IFRS) and Taxable Income. Temporary differences reverse over time (e.g., depreciation timing); permanent differences never reverse (e.g., tax-exempt interest)."
+  },
+  {
+    "id": 54,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Deferred Tax Asset (DTA) vs Deferred Tax Liability (DTL)?",
+    "answer": "A DTA arises when taxes paid on tax returns exceed financial accounting tax expense (yielding future tax credits). A DTL arises when financial tax expense exceeds tax returns currently paid (yielding future tax obligations)."
+  },
+  {
+    "id": 55,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Self-Employment Tax?",
+    "answer": "Self-Employment Tax requires freelancers, independent contractors, and sole proprietors to pay both employee and employer portions of FICA Social Security and Medicare taxes on net earnings."
+  },
+  {
+    "id": 56,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Business Interest Expense Limitation?",
+    "answer": "Statutory rules restricting corporate business interest deductions to a fixed percentage of adjusted taxable income (e.g., EBITDA/EBIT) to curb over-leveraging with debt."
+  },
+  {
+    "id": 57,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Like-Kind Exchange (1031 Exchange)?",
+    "answer": "A 1031 Exchange allows real estate investors to defer capital gains tax liabilities upon selling real property if sale proceeds are reinvested into a replacement 'like-kind' real estate property."
+  },
+  {
+    "id": 58,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Accumulated Earnings Tax?",
+    "answer": "A penalty tax imposed on corporations that retain earnings beyond reasonable business needs rather than distributing dividends to shareholders, preventing tax avoidance."
+  },
+  {
+    "id": 59,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Amortization of Intangible Assets for tax purposes?",
+    "answer": "Amortization allows businesses to deduct the cost of acquiring intangible assets (goodwill, patents, trademarks, software) in equal annual installments over statutory periods."
+  },
+  {
+    "id": 60,
+    "category": "Corporate Taxation & Business",
+    "question": "What is Global Minimum Corporate Tax (OECD Pillar 2)?",
+    "answer": "OECD Pillar 2 imposes an international framework establishing a global minimum 15% effective corporate tax rate on multinational enterprises with revenues exceeding statutory thresholds."
+  },
+  {
+    "id": 61,
+    "category": "International & Digital Taxation",
+    "question": "What is Worldwide Tax System vs Territorial Tax System?",
+    "answer": "A Worldwide Tax System taxes citizens or resident entities on total global income earned regardless of location. A Territorial Tax System taxes entities strictly on income earned within national geographic borders."
+  },
+  {
+    "id": 62,
+    "category": "International & Digital Taxation",
+    "question": "What is Foreign Tax Credit (FTC)?",
+    "answer": "An FTC provides a dollar-for-dollar tax credit to domestic taxpayers for income taxes paid to foreign governments on foreign source income, preventing international double taxation."
+  },
+  {
+    "id": 63,
+    "category": "International & Digital Taxation",
+    "question": "What is a Double Taxation Treaty (DTT) / Tax Convention?",
+    "answer": "A DTT is a bilateral agreement between two countries that allocates taxing rights over cross-border income, reduces withholding taxes, and provides mechanisms to resolve tax disputes."
+  },
+  {
+    "id": 64,
+    "category": "International & Digital Taxation",
+    "question": "What is Permanent Establishment (PE)?",
+    "answer": "PE is a legal threshold defining fixed place of business presence in a foreign jurisdiction that grants local authorities legal jurisdiction to tax corporate enterprise profits generated locally."
+  },
+  {
+    "id": 65,
+    "category": "International & Digital Taxation",
+    "question": "What is Foreign Account Tax Compliance Act (FATCA)?",
+    "answer": "FATCA requires foreign financial institutions (FFIs) globally to report account assets held by US taxpayers directly to the IRS, curbing offshore tax evasion."
+  },
+  {
+    "id": 66,
+    "category": "International & Digital Taxation",
+    "question": "What is Common Reporting Standard (CRS)?",
+    "answer": "CRS is an international framework developed by the OECD for the automatic exchange of financial account information among participating tax authorities globally."
+  },
+  {
+    "id": 67,
+    "category": "International & Digital Taxation",
+    "question": "What is Digital Services Tax (DST)?",
+    "answer": "A DST is a gross revenue tax imposed on multinational tech companies for providing digital advertising, marketplaces, or data transmission services within a jurisdiction."
+  },
+  {
+    "id": 68,
+    "category": "International & Digital Taxation",
+    "question": "How are Cryptocurrencies and Digital Assets taxed?",
+    "answer": "Tax authorities treat cryptocurrencies as property or capital assets. Trading, selling, or exchanging crypto triggers taxable capital gains or losses; receiving crypto as income is taxed as ordinary income."
+  },
+  {
+    "id": 69,
+    "category": "International & Digital Taxation",
+    "question": "What is Economic Nexus in digital e-commerce taxation?",
+    "answer": "Economic Nexus establishes tax collection obligations (e.g., sales tax/VAT) for remote online sellers based strictly on exceeding threshold sales volume or transaction counts in a jurisdiction without physical presence."
+  },
+  {
+    "id": 70,
+    "category": "International & Digital Taxation",
+    "question": "What is Controlled Foreign Corporation (CFC) Rule?",
+    "answer": "CFC rules prevent domestic parent companies from deferring corporate tax on passive income accumulated in controlled foreign subsidiaries by taxing profits currently."
+  },
+  {
+    "id": 71,
+    "category": "International & Digital Taxation",
+    "question": "What is GILTI (Global Intangible Low-Taxed Income)?",
+    "answer": "GILTI is a tax provision designed to tax US multinational corporations on foreign profits generated from high-margin intangible assets held in low-tax jurisdictions."
+  },
+  {
+    "id": 72,
+    "category": "International & Digital Taxation",
+    "question": "What is Non-Resident Alien (NRA) Tax Withholding?",
+    "answer": "Special tax withholding rules requiring domestic payers to deduct flat statutory tax percentages on income payments (dividends, interest, royalties) made to foreign non-residents."
+  },
+  {
+    "id": 73,
+    "category": "International & Digital Taxation",
+    "question": "What is Foreign Earned Income Exclusion (FEIE)?",
+    "answer": "FEIE allows expatriates who meet strict physical presence or foreign residence tests to exclude up to a statutory threshold of foreign-earned employment income from home-country income taxes."
+  },
+  {
+    "id": 74,
+    "category": "International & Digital Taxation",
+    "question": "What is Thin Capitalization Rule?",
+    "answer": "Thin Capitalization rules limit interest expense deductions when a subsidiary is funded primarily with excessive internal debt from foreign parent companies rather than equity."
+  },
+  {
+    "id": 75,
+    "category": "International & Digital Taxation",
+    "question": "What is Subpart F Income?",
+    "answer": "Subpart F income includes specific categories of passive or movable foreign subsidiary income that are taxed immediately on home parent returns without waiting for dividend distributions."
+  },
+  {
+    "id": 76,
+    "category": "International & Digital Taxation",
+    "question": "What is Value-Added Tax (VAT) Moss / One-Stop-Shop (OSS)?",
+    "answer": "OSS allows digital e-commerce businesses selling to consumers across multiple jurisdictions to register and pay cross-border VAT through a single centralized electronic portal."
+  },
+  {
+    "id": 77,
+    "category": "International & Digital Taxation",
+    "question": "What is Expatriation Tax (Exit Tax)?",
+    "answer": "An Exit Tax levied on high-net-worth citizens or long-term residents who renounce citizenship or relinquish residency, taxing deemed capital gain liquidations of global assets."
+  },
+  {
+    "id": 78,
+    "category": "International & Digital Taxation",
+    "question": "What is OECD Pillar 1 for digital economy taxation?",
+    "answer": "OECD Pillar 1 reallocates taxing rights over a portion of large multinational enterprise profits directly to market jurisdictions where consumers are located, regardless of physical presence."
+  },
+  {
+    "id": 79,
+    "category": "International & Digital Taxation",
+    "question": "What is Tax Residency and tie-breaker rules?",
+    "answer": "Tax residency determines a jurisdiction's right to tax worldwide income based on residence rules (e.g., 183-day rule). Tie-breaker rules in treaties resolve dual residency based on permanent home or economic center."
+  },
+  {
+    "id": 80,
+    "category": "International & Digital Taxation",
+    "question": "What is Non-Fungible Token (NFT) tax treatment?",
+    "answer": "NFTs are taxed as property or collectibles. Selling NFTs for profit or swapping them for crypto triggers capital gains taxes; creators selling original NFTs report profit as ordinary income."
+  },
+  {
+    "id": 81,
+    "category": "Administration & Ethics",
+    "question": "What is a Tax Audit and its primary forms (Field, Office, Correspondence)?",
+    "answer": "A Tax Audit is an official examination of a taxpayer's accounts and financial information by a revenue authority to verify compliance with tax laws. Forms include Correspondence (mail verification), Office (in-person interview at tax office), and Field (comprehensive review at taxpayer business premises)."
+  },
+  {
+    "id": 82,
+    "category": "Administration & Ethics",
+    "question": "What is Statute of Limitations on tax assessments?",
+    "answer": "Statute of Limitations sets statutory time limits (e.g., 3 to 6 years) within which tax authorities can audit returns or assess additional tax liabilities. Fraud or un-filed returns generally have no statute of limitations."
+  },
+  {
+    "id": 83,
+    "category": "Administration & Ethics",
+    "question": "What is Tax Information Reporting (1099s, W-2s, Schedule K-1s)?",
+    "answer": "Information returns are standardized tax forms submitted by third-party payers (employers, banks, brokers, pass-through entities) to report payments made to taxpayers and tax authorities to facilitate cross-matching."
+  },
+  {
+    "id": 84,
+    "category": "Administration & Ethics",
+    "question": "What is Estimated Tax Payments and Underpayment Penalties?",
+    "answer": "Estimated Tax Payments are quarterly tax prepayments required from self-employed individuals or investors whose income is not subject to withholding tax. Failure to prepay sufficient taxes triggers underpayment penalties."
+  },
+  {
+    "id": 85,
+    "category": "Administration & Ethics",
+    "question": "What is Offer in Compromise (OIC)?",
+    "answer": "An Offer in Compromise is an administrative agreement between a taxpayer and tax agency that settles a taxpayer's liability for less than the full amount owed when full payment would create severe economic hardship."
+  },
+  {
+    "id": 86,
+    "category": "Administration & Ethics",
+    "question": "What is Tax Fraud vs Tax Negligence?",
+    "answer": "Tax Negligence involves unintentional errors or careless disregard of tax rules without intent to deceive. Tax Fraud is a criminal offense involving deliberate intentional deception or misrepresentation to evade taxes."
+  },
+  {
+    "id": 87,
+    "category": "Administration & Ethics",
+    "question": "What is Form 1040 / Standard Tax Return?",
+    "answer": "Form 1040 is the standard individual income tax return form used by taxpayers to report total income, claim deductions/credits, and calculate final annual tax liability or refund."
+  },
+  {
+    "id": 88,
+    "category": "Administration & Ethics",
+    "question": "What is General Anti-Avoidance Rule (GAAR)?",
+    "answer": "GAAR grants tax authorities broad statutory power to invalidate or deny tax benefits derived from artificial or sham transactions that lack real commercial economic substance other than tax avoidance."
+  },
+  {
+    "id": 89,
+    "category": "Administration & Ethics",
+    "question": "What is Economic Substance Doctrine?",
+    "answer": "A legal doctrine stipulating that a transaction must possess meaningful non-tax economic purpose and reasonable expectation of pre-tax profit to be recognized for income tax deduction purposes."
+  },
+  {
+    "id": 90,
+    "category": "Administration & Ethics",
+    "question": "What is Tax Lien vs Tax Levy?",
+    "answer": "A Tax Lien is a legal claim or encumbrance placed against a delinquent taxpayer's property to secure tax debt payment. A Tax Levy is the actual legal seizure of property or bank funds to satisfy tax debt."
+  },
+  {
+    "id": 91,
+    "category": "Administration & Ethics",
+    "question": "What is Private Letter Ruling (PLR)?",
+    "answer": "A PLR is a written binding guidance document issued by a tax authority upon a taxpayer's request interpreting tax law as applied to specific proposed transactions before execution."
+  },
+  {
+    "id": 92,
+    "category": "Administration & Ethics",
+    "question": "What is Tax Preparer Liability and Circular 230 ethics standards?",
+    "answer": "Regulations establishing professional standards, ethical duties, and legal penalty exposure for professional tax preparers who prepare fraudulent, reckless, or negligent tax returns."
+  },
+  {
+    "id": 93,
+    "category": "Administration & Ethics",
+    "question": "What is Innocent Spouse Relief?",
+    "answer": "Innocent Spouse Relief protects an individual from joint tax liability (including taxes, interest, and penalties) incurred by an estranged or former spouse who omitted income or claimed improper deductions without the individual's knowledge."
+  },
+  {
+    "id": 94,
+    "category": "Administration & Ethics",
+    "question": "What is Tax Tax Amnesty vs Voluntary Disclosure Program?",
+    "answer": "Voluntary Disclosure Programs permit non-compliant taxpayers to voluntarily correct past non-compliance, pay outstanding taxes and interest, and secure immunity from criminal prosecution."
+  },
+  {
+    "id": 95,
+    "category": "Administration & Ethics",
+    "question": "What is Failure to File vs Failure to Pay Penalties?",
+    "answer": "Failure to File penalty is charged for submitting returns past the deadline (typically 5% per month). Failure to Pay penalty is charged for late tax payments (typically 0.5% per month); late filing penalties are generally higher."
+  },
+  {
+    "id": 96,
+    "category": "Administration & Ethics",
+    "question": "What is Tax Whistleblower Program?",
+    "answer": "Programs offering financial rewards to individuals who report major tax evasion or under-reporting to tax authorities, paying percentages of collected taxes and penalties."
+  },
+  {
+    "id": 97,
+    "category": "Administration & Ethics",
+    "question": "What is Tax Court vs District Court for resolving tax disputes?",
+    "answer": "Tax Court allows taxpayers to litigate disputed tax deficiency notices before paying assessed taxes. District Court requires paying disputed tax liabilities first before suing for a refund."
+  },
+  {
+    "id": 98,
+    "category": "Administration & Ethics",
+    "question": "What is Record Retention Period for tax purposes?",
+    "answer": "The recommended statutory timeframe (typically 3 to 7 years) taxpayers must retain tax returns, receipts, invoices, and supporting financial documentation to substantiate tax claims."
+  },
+  {
+    "id": 99,
+    "category": "Administration & Ethics",
+    "question": "What is Form 8300 cash transaction reporting requirement?",
+    "answer": "Statutory rule requiring businesses receiving cash payments exceeding statutory thresholds (e.g., $10,000) in a single transaction to file reports to curb money laundering and tax evasion."
+  },
+  {
+    "id": 100,
+    "category": "Administration & Ethics",
+    "question": "What is Fiduciary Tax Duty in Estate and Trust administration?",
+    "answer": "The legal obligation imposed on trustees and executors to manage estate assets, file fiduciary tax returns (Form 1041), and pay applicable estate taxes prior to distributing inheritance funds to beneficiaries."
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is the difference between Time-Weighted Rate of Return (TWRR) and Money-Weighted Rate of Return (MWRR)?",
+    "answer": "TWRR measures portfolio compound growth rate removing distortion from external cash inflows/outflows, making it ideal for evaluating manager skill. MWRR represents the Internal Rate of Return (IRR) that equates present value of cash flows to ending portfolio value, reflecting the actual investor experience based on timing of capital additions."
+  },
+  {
+    "id": 2,
+    "category": "Portfolio Theory & Returns",
+    "question": "How do you calculate the expected return of a two-asset portfolio?",
+    "answer": "E(Rp) = w1 * E(R1) + w2 * E(R2), where w1 and w2 are portfolio weight allocations summing to 1.0, and E(R1) and E(R2) are expected asset returns."
+  },
+  {
+    "id": 3,
+    "category": "Portfolio Theory & Returns",
+    "question": "How do you calculate the variance of a two-asset portfolio?",
+    "answer": "Var(Rp) = w1^2 * sigma1^2 + w2^2 * sigma2^2 + 2 * w1 * w2 * Cov(R1, R2), or replacing covariance with correlation: 2 * w1 * w2 * sigma1 * sigma2 * rho12."
+  },
+  {
+    "id": 4,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Markowitz Modern Portfolio Theory (MPT)?",
+    "answer": "MPT demonstrates that asset risk should not be assessed in isolation, but by how each security's return co-varies with other portfolio assets. Investors can construct optimal portfolios maximizing expected return for given risk through diversification."
+  },
+  {
+    "id": 5,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is the Efficient Frontier in portfolio analysis?",
+    "answer": "The Efficient Frontier represents set of optimal portfolios offering highest expected return for defined level of risk (or lowest risk for given expected return)."
+  },
+  {
+    "id": 6,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is the Capital Market Line (CML)?",
+    "answer": "CML plots expected return against total risk (standard deviation) for efficient portfolios created by combining risk-free asset with market portfolio. Slope of CML is Sharpe ratio of market portfolio."
+  },
+  {
+    "id": 7,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is the Security Market Line (SML)?",
+    "answer": "SML visually depicts Capital Asset Pricing Model (CAPM), plotting expected return against systematic risk (Beta) for individual assets or portfolios."
+  },
+  {
+    "id": 8,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is the difference between CML and SML?",
+    "answer": "CML uses total risk (standard deviation) as risk metric and applies only to fully efficient portfolios. SML uses systematic risk (Beta) and applies to individual securities as well as portfolios."
+  },
+  {
+    "id": 9,
+    "category": "Portfolio Theory & Returns",
+    "question": "How is Portfolio Beta calculated?",
+    "answer": "Portfolio Beta is weighted average of individual security betas: Beta_p = Sum(w_i * Beta_i), where w_i represents portfolio weight of asset i."
+  },
+  {
+    "id": 10,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Geometric Mean Return vs Arithmetic Mean Return?",
+    "answer": "Arithmetic mean is simple average of periodic returns, suitable for single-period return expectations. Geometric mean calculates compound growth rate per period: [(1+R1)*(1+R2)...*(1+Rn)]^(1/n) - 1, reflecting multi-period compounding performance."
+  },
+  {
+    "id": 11,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Diversification Ratio?",
+    "answer": "Diversification Ratio compares weighted average volatility of individual portfolio assets to total portfolio volatility: DR = Sum(w_i * sigma_i) / sigma_p. A ratio > 1 indicates diversification benefits."
+  },
+  {
+    "id": 12,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Minimum Variance Portfolio (MVP)?",
+    "answer": "MVP is portfolio sitting on left-most point of Efficient Frontier providing lowest possible return volatility among all feasible risk-asset combinations."
+  },
+  {
+    "id": 13,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Tangency Portfolio?",
+    "answer": "Tangency Portfolio is point where line drawn from risk-free rate is tangent to Efficient Frontier, representing portfolio with highest possible Sharpe ratio."
+  },
+  {
+    "id": 14,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Realized Return vs Expected Return?",
+    "answer": "Expected return is forward-looking probability-weighted average return. Realized return is historical actual yield earned over specific past timeframe."
+  },
+  {
+    "id": 15,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Annualized Return and Annualized Volatility?",
+    "answer": "Annualized Return = (1 + R_period)^(periods_per_year) - 1. Annualized Volatility = Periodic Standard Deviation * sqrt(periods_per_year)."
+  },
+  {
+    "id": 16,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Capital Allocation Line (CAL)?",
+    "answer": "CAL shows risk-return trade-offs formed by combining risk-free asset with specific risky portfolio."
+  },
+  {
+    "id": 17,
+    "category": "Portfolio Theory & Returns",
+    "question": "How does asset return correlation impact portfolio variance?",
+    "answer": "Lower asset correlation reduces portfolio variance. Perfect positive correlation (+1) eliminates diversification benefit; correlation < 1 reduces portfolio risk relative to weighted average risk."
+  },
+  {
+    "id": 18,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Covariance Matrix in portfolio analysis?",
+    "answer": "Covariance Matrix (N x N) contains variances of N assets along diagonal and pairwise covariances in off-diagonal cells, used to derive total portfolio variance."
+  },
+  {
+    "id": 19,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Single Index Model (SIM)?",
+    "answer": "SIM simplifies portfolio covariance structure by assuming individual stock returns co-vary strictly through shared relationship with broad market index."
+  },
+  {
+    "id": 20,
+    "category": "Portfolio Theory & Returns",
+    "question": "What is Portfolio Rebalancing?",
+    "answer": "Portfolio Rebalancing is buying and selling asset classes to restore original target asset allocation weights altered by asset price movements over time."
+  },
+  {
+    "id": 21,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Value at Risk (VaR) in portfolio management?",
+    "answer": "VaR quantifies maximum anticipated loss over designated holding period at specific confidence interval (e.g., 99% 10-day VaR)."
+  },
+  {
+    "id": 22,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Conditional Value at Risk (CVaR) / Expected Shortfall?",
+    "answer": "CVaR calculates average magnitude of losses occurring strictly within tail probability beyond VaR threshold."
+  },
+  {
+    "id": 23,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Tracking Error?",
+    "answer": "Tracking Error is standard deviation of excess returns between portfolio and benchmark: Tracking Error = StDev(R_portfolio - R_benchmark)."
+  },
+  {
+    "id": 24,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Downside Standard Deviation (Semi-Deviation)?",
+    "answer": "Downside standard deviation calculates return volatility utilizing only return observations falling below specified target threshold or risk-free rate."
+  },
+  {
+    "id": 25,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Maximum Drawdown (MDD)?",
+    "answer": "MDD measures peak-to-trough decline in portfolio equity value before new peak is attained over specific evaluation window."
+  },
+  {
+    "id": 26,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Fama-French Three-Factor Model?",
+    "answer": "Expands CAPM by adding size factor (SMB: Small Minus Big) and value factor (HML: High Minus Low) to market return risk factor."
+  },
+  {
+    "id": 27,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Carhart Four-Factor Model?",
+    "answer": "Adds momentum factor (UMD: Up Minus Down) to Fama-French three-factor model to capture persistence in past winning vs losing stocks."
+  },
+  {
+    "id": 28,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Fama-French Five-Factor Model?",
+    "answer": "Incorporates profitability (RMW: Robust Minus Weak) and investment pattern (CMA: Conservative Minus Aggressive) factors to three-factor framework."
+  },
+  {
+    "id": 29,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Arbitrage Pricing Theory (APT)?",
+    "answer": "Multi-factor asset pricing model holding that asset return can be modeled as linear function of macroeconomic factors and systematic risk sensitivities."
+  },
+  {
+    "id": 30,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Systematic Risk vs Unsystematic Risk?",
+    "answer": "Systematic risk (market risk/Beta) affects whole economy and cannot be diversified away. Unsystematic risk (idiosyncratic risk) is company-specific risk eliminated via diversification."
+  },
+  {
+    "id": 31,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Marginal Contribution to Risk (MCTR)?",
+    "answer": "MCTR measures rate of change in total portfolio risk resulting from incremental percentage increase in individual asset allocation weight."
+  },
+  {
+    "id": 32,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Component Contribution to Risk (ACTR)?",
+    "answer": "ACTR represents exact percentage/dollar risk contributed by individual asset to total portfolio risk: ACTR_i = w_i * MCTR_i."
+  },
+  {
+    "id": 33,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Active Risk (Active Risk Squared)?",
+    "answer": "Active Risk is Tracking Error. Active Risk Squared decomposes tracking error into factor risk contributions and stock selection risk contributions."
+  },
+  {
+    "id": 34,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Parametric VaR vs Historical VaR vs Monte Carlo VaR?",
+    "answer": "Parametric VaR assumes normal distribution of returns using mean and variance. Historical VaR sorts actual past returns to find percentile cutoff. Monte Carlo VaR simulates thousands of prospective return paths."
+  },
+  {
+    "id": 35,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Stress Testing and Scenario Analysis?",
+    "answer": "Evaluates portfolio resilience under hypothetical extreme stress scenarios (e.g., 2008 financial crisis rerun or interest rate shock)."
+  },
+  {
+    "id": 36,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Tail Risk?",
+    "answer": "Risk that asset return distribution exhibits fat tails (kurtosis > 3), causing extreme negative events to occur more frequently than normal distribution predicts."
+  },
+  {
+    "id": 37,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Skewness and Kurtosis in portfolio analysis?",
+    "answer": "Skewness measures asymmetry of return distribution (negative skew = frequent small gains, rare large losses). Kurtosis measures heavy-tailedness (high kurtosis = extreme outliers)."
+  },
+  {
+    "id": 38,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Value-at-Risk Backtesting?",
+    "answer": "Process comparing estimated VaR loss predictions against actual daily portfolio trading gains/losses to validate statistical model accuracy."
+  },
+  {
+    "id": 39,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Factor Loadings (Factor Betas)?",
+    "answer": "Sensitivities (coefficients) derived from multi-factor regression indicating how strongly portfolio returns react to specific systematic risk factors."
+  },
+  {
+    "id": 40,
+    "category": "Risk Metrics & Factor Models",
+    "question": "What is Fundamental Risk Factor Model vs Statistical Risk Factor Model?",
+    "answer": "Fundamental models use observables (P/E ratios, market cap, industry classifications). Statistical models derive factors using principal component analysis (PCA) on asset returns."
+  },
+  {
+    "id": 41,
+    "category": "Performance Attribution",
+    "question": "What is Sharpe Ratio?",
+    "answer": "Sharpe Ratio = (Portfolio Return - Risk-Free Rate) / Portfolio Standard Deviation. Measures total risk-adjusted excess return."
+  },
+  {
+    "id": 42,
+    "category": "Performance Attribution",
+    "question": "What is Sortino Ratio?",
+    "answer": "Sortino Ratio = (Portfolio Return - Risk-Free Rate) / Downside Deviation. Evaluates return per unit of downside risk."
+  },
+  {
+    "id": 43,
+    "category": "Performance Attribution",
+    "question": "What is Treynor Ratio?",
+    "answer": "Treynor Ratio = (Portfolio Return - Risk-Free Rate) / Portfolio Beta. Measures systematic risk-adjusted return."
+  },
+  {
+    "id": 44,
+    "category": "Performance Attribution",
+    "question": "What is Information Ratio (IR)?",
+    "answer": "Information Ratio = (Portfolio Return - Benchmark Return) / Tracking Error. Evaluates manager efficiency in generating excess returns relative to active risk."
+  },
+  {
+    "id": 45,
+    "category": "Performance Attribution",
+    "question": "What is Jensen's Alpha?",
+    "answer": "Alpha = Portfolio Return - [Risk-Free Rate + Beta * (Benchmark Return - Risk-Free Rate)]. Quantifies return generated in excess of CAPM model prediction."
+  },
+  {
+    "id": 46,
+    "category": "Performance Attribution",
+    "question": "What is Brinson-Fachler Performance Attribution Model?",
+    "answer": "Decomposes total portfolio active return relative to benchmark into Allocation Effect, Selection Effect, and Interaction Effect across sectors."
+  },
+  {
+    "id": 47,
+    "category": "Performance Attribution",
+    "question": "What is Sector Allocation Effect formula in Brinson model?",
+    "answer": "Allocation Effect = (w_p,i - w_b,i) * (R_b,i - R_b_total), where w_p and w_b are portfolio/benchmark sector weights, R_b,i is benchmark sector return, R_b_total is benchmark overall return."
+  },
+  {
+    "id": 48,
+    "category": "Performance Attribution",
+    "question": "What is Security Selection Effect formula in Brinson model?",
+    "answer": "Selection Effect = w_b,i * (R_p,i - R_b,i), measuring value added by selecting individual outperforming securities within sector."
+  },
+  {
+    "id": 49,
+    "category": "Performance Attribution",
+    "question": "What is Modigliani-Modigliani (M^2) measure?",
+    "answer": "M^2 measures return portfolio would achieve if leveraged/deleveraged to match standard deviation of benchmark index: M^2 = Risk-Free Rate + Sharpe Ratio * StDev(Benchmark)."
+  },
+  {
+    "id": 50,
+    "category": "Performance Attribution",
+    "question": "What is Calmar Ratio?",
+    "answer": "Calmar Ratio = Annualized Portfolio Return / Maximum Drawdown over specified timeframe (usually 3 years), measuring return per unit of drawdown risk."
+  },
+  {
+    "id": 51,
+    "category": "Performance Attribution",
+    "question": "What is Omega Ratio?",
+    "answer": "Omega Ratio compares probability-weighted gains above threshold return to probability-weighted losses below threshold return, capturing full return distribution."
+  },
+  {
+    "id": 52,
+    "category": "Performance Attribution",
+    "question": "What is Fixed Income Performance Attribution (Campisi Model)?",
+    "answer": "Decomposes bond portfolio returns into Income Return (coupon/yield effect) and Price Return (Treasury shift, yield curve shape, credit spread, and selection effects)."
+  },
+  {
+    "id": 53,
+    "category": "Performance Attribution",
+    "question": "What is Style Drift in portfolio evaluation?",
+    "answer": "Style Drift occurs when active fund manager's investment holdings deviate over time from stated investment style or benchmark asset class limits."
+  },
+  {
+    "id": 54,
+    "category": "Performance Attribution",
+    "question": "What is Active Share?",
+    "answer": "Active Share measures percentage of portfolio holdings differing from benchmark holdings: Active Share = 0.5 * Sum(|w_p,i - w_b,i|). Values near 100% indicate pure stock picker."
+  },
+  {
+    "id": 55,
+    "category": "Performance Attribution",
+    "question": "What is Multi-Period Attribution linking problem?",
+    "answer": "Compounding single-period attribution effects over multiple periods produces residual linking error; methods like Carino or Menchero resolve geometric linking discrepancies."
+  },
+  {
+    "id": 56,
+    "category": "Performance Attribution",
+    "question": "What is Benchmark Mis-specification?",
+    "answer": "Occurs when selected benchmark fails to reflect manager's actual asset universe or risk constraints, leading to false alpha measurements."
+  },
+  {
+    "id": 57,
+    "category": "Performance Attribution",
+    "question": "What is Gain-to-Pain Ratio?",
+    "answer": "Gain-to-Pain Ratio = Sum(All Periodic Returns) / Abs(Sum(All Negative Periodic Returns)). Quantifies cumulative net profit relative to total monthly pain."
+  },
+  {
+    "id": 58,
+    "category": "Performance Attribution",
+    "question": "What is Sterling Ratio?",
+    "answer": "Sterling Ratio = (Average Annual Return - Risk-Free Rate) / (Average Maximum Drawdown - Arbitrary 10%)."
+  },
+  {
+    "id": 59,
+    "category": "Performance Attribution",
+    "question": "What is Return Attribution vs Risk Attribution?",
+    "answer": "Return attribution explains where past excess returns came from (sectors, security picks). Risk attribution explains which holdings or factor exposures drive future portfolio volatility."
+  },
+  {
+    "id": 60,
+    "category": "Performance Attribution",
+    "question": "What is GIPS (Global Investment Performance Standards)?",
+    "answer": "Ethical standards for performance calculation and presentation ensuring fair representation and full disclosure across global investment managers."
+  },
+  {
+    "id": 61,
+    "category": "Portfolio Optimization",
+    "question": "What is Mean-Variance Optimization (MVO)?",
+    "answer": "Mathematical optimization framework solving for asset weight vector that minimizes portfolio variance for given expected return."
+  },
+  {
+    "id": 62,
+    "category": "Portfolio Optimization",
+    "question": "What is Black-Litterman Model?",
+    "answer": "Combines CAPM market equilibrium returns with investor subjective views to produce stable, intuitive optimal portfolio weight allocations without extreme short/long positions."
+  },
+  {
+    "id": 63,
+    "category": "Portfolio Optimization",
+    "question": "What is Risk Parity portfolio construction?",
+    "answer": "Allocates capital such that every asset class contributes equally to overall portfolio volatility, rather than allocating fixed dollar amounts."
+  },
+  {
+    "id": 64,
+    "category": "Portfolio Optimization",
+    "question": "What is Maximum Diversification Portfolio?",
+    "answer": "Optimization technique maximizing Diversification Ratio (weighted volatility divided by total portfolio volatility)."
+  },
+  {
+    "id": 65,
+    "category": "Portfolio Optimization",
+    "question": "What is Equal Weighting vs Market Cap Weighting?",
+    "answer": "Market Cap weighting allocates capital proportional to market valuation (passive baseline). Equal weighting assigns identical percentage weight to all holdings, introducing value/small-cap bias."
+  },
+  {
+    "id": 66,
+    "category": "Portfolio Optimization",
+    "question": "What is Minimum Variance Portfolio optimization problem?",
+    "answer": "Minimize w^T * Sigma * w subject to constraint sum(w_i) = 1 and optional weight constraints (w_i >= 0)."
+  },
+  {
+    "id": 67,
+    "category": "Portfolio Optimization",
+    "question": "What is Correlation Matrix Shrinkage (Ledoit-Wolf Shrinkage)?",
+    "answer": "Statistical technique blending sample covariance matrix with structured estimator (like single index model) to reduce sample noise and improve optimizer stability."
+  },
+  {
+    "id": 68,
+    "category": "Portfolio Optimization",
+    "question": "What is Corner Portfolios concept in MVO?",
+    "answer": "Portfolios along Efficient Frontier where specific asset weights transition from zero to positive (or vice-versa) under inequality constraints."
+  },
+  {
+    "id": 69,
+    "category": "Portfolio Optimization",
+    "question": "What is Strategic Asset Allocation (SAA) vs Tactical Asset Allocation (TAA)?",
+    "answer": "SAA sets long-term target asset mix matching client risk profile. TAA makes short-term tactical tilts away from baseline to exploit market opportunities."
+  },
+  {
+    "id": 70,
+    "category": "Portfolio Optimization",
+    "question": "What is Inverse Volatility Weighting?",
+    "answer": "Weighting scheme setting w_i proportional to 1 / sigma_i, ignoring correlations to provide simple risk-controlled allocation."
+  },
+  {
+    "id": 71,
+    "category": "Portfolio Optimization",
+    "question": "What is Hierarchical Risk Parity (HRP)?",
+    "answer": "Modern portfolio optimization method using machine learning clustering techniques on asset correlation matrices to build robust portfolios without matrix inversion."
+  },
+  {
+    "id": 72,
+    "category": "Portfolio Optimization",
+    "question": "What is Mean-CVaR Optimization?",
+    "answer": "Portfolio optimization technique replacing variance with Conditional Value at Risk as risk measure to optimize for downside tail protection."
+  },
+  {
+    "id": 73,
+    "category": "Portfolio Optimization",
+    "question": "What are Portfolio Constraints in optimization models?",
+    "answer": "Operational limits applied to optimizer including position size bounds, sector concentration caps, turnover limits, leverage caps, and ESG scores."
+  },
+  {
+    "id": 74,
+    "category": "Portfolio Optimization",
+    "question": "What is Core-Satellite Strategy?",
+    "answer": "Combines low-cost index tracking core portfolio (e.g. 70-80% passive) with high-conviction active satellite strategies to generate alpha."
+  },
+  {
+    "id": 75,
+    "category": "Portfolio Optimization",
+    "question": "What is Rebalancing Drag / Turnover Cost?",
+    "answer": "Performance degradation resulting from trading fees, bid-ask spreads, and market impact costs incurred during frequent portfolio rebalancing."
+  },
+  {
+    "id": 76,
+    "category": "Portfolio Optimization",
+    "question": "What is Resampled Efficiency (Michaud Resampling)?",
+    "answer": "Monte Carlo technique averaging efficient frontier paths generated across resampled input data to produce stable, well-diversified optimized weights."
+  },
+  {
+    "id": 77,
+    "category": "Portfolio Optimization",
+    "question": "What is Factor-Based Investing / Smart Beta?",
+    "answer": "Constructing portfolios targeting explicit risk factor exposures (Value, Momentum, Quality, Low Volatility) using transparent, rules-based methodology."
+  },
+  {
+    "id": 78,
+    "category": "Portfolio Optimization",
+    "question": "What is Dynamic Asset Allocation?",
+    "answer": "Continuously adjusting asset allocations in response to changing macroeconomic regimes, volatility indicators, or market trend signals."
+  },
+  {
+    "id": 79,
+    "category": "Portfolio Optimization",
+    "question": "What is Volatility Targeting Strategy?",
+    "answer": "Adjusting portfolio leverage or cash buffers dynamically to maintain constant annual portfolio return volatility across shifting market environments."
+  },
+  {
+    "id": 80,
+    "category": "Portfolio Optimization",
+    "question": "What is Tax-Aware Portfolio Optimization?",
+    "answer": "Incorporating tax consequences (capital gains taxes, wash-sale rules, asset location across taxable vs tax-deferred accounts) into asset allocation and rebalancing models."
+  },
+  {
+    "id": 81,
+    "category": "Asset Liability Management",
+    "question": "What is Liability-Driven Investing (LDI)?",
+    "answer": "Investment strategy structured primarily around matching present value and interest rate sensitivities of future liabilities (e.g., pension fund payout obligations)."
+  },
+  {
+    "id": 82,
+    "category": "Asset Liability Management",
+    "question": "What is Duration Matching in fixed income portfolios?",
+    "answer": "Constructing bond portfolio such that portfolio duration exactly equals duration of future cash liabilities, immunizing portfolio against parallel interest rate shifts."
+  },
+  {
+    "id": 83,
+    "category": "Asset Liability Management",
+    "question": "What is Convexity Matching in LDI?",
+    "answer": "Ensuring portfolio convexity equals or exceeds liability convexity to maintain immunization under large interest rate fluctuations."
+  },
+  {
+    "id": 84,
+    "category": "Asset Liability Management",
+    "question": "What is Cash Flow Matching / Dedicated Portfolio?",
+    "answer": "Structuring fixed income portfolio with zero-coupon or coupon bonds whose principal and interest payouts mature exactly matching timing and amount of liability cash flows."
+  },
+  {
+    "id": 85,
+    "category": "Asset Liability Management",
+    "question": "What is Surplus Risk in ALM?",
+    "answer": "Volatility of difference between portfolio asset value and liability value: Surplus = Assets - Liabilities."
+  },
+  {
+    "id": 86,
+    "category": "Asset Liability Management",
+    "question": "What is Investment Policy Statement (IPS)?",
+    "answer": "Formal governing document outlining portfolio objectives, risk tolerance, liquidity requirements, tax considerations, time horizon, and operational constraints."
+  },
+  {
+    "id": 87,
+    "category": "Asset Liability Management",
+    "question": "What is Goal-Based Investing (GBI)?",
+    "answer": "Framing portfolio analysis around funding specific future wealth goals (e.g., retirement spending, bequest, purchasing real estate) with distinct sub-portfolios and risk profiles."
+  },
+  {
+    "id": 88,
+    "category": "Asset Liability Management",
+    "question": "What is Endowment Model (Swensen Approach)?",
+    "answer": "Institutional portfolio strategy emphasizing significant allocations to illiquid alternative assets (private equity, venture capital, real assets, hedge funds) to harvest illiquidity premium."
+  },
+  {
+    "id": 89,
+    "category": "Asset Liability Management",
+    "question": "What is Illiquidity Premium in portfolio management?",
+    "answer": "Excess return compensation demanded by institutional investors for holding assets that cannot be quickly liquidated without high transaction costs."
+  },
+  {
+    "id": 90,
+    "category": "Asset Liability Management",
+    "question": "What is Portable Alpha strategy?",
+    "answer": "Separating alpha generation from beta exposure by acquiring target market beta using derivative futures while investing cash in non-correlated alpha strategy."
+  },
+  {
+    "id": 91,
+    "category": "Asset Liability Management",
+    "question": "What is Overlay Strategy in portfolio management?",
+    "answer": "Using financial derivatives (futures, options, swaps) superimposed on primary portfolio to adjust currency risk, duration, or asset allocation without selling physical underlying securities."
+  },
+  {
+    "id": 92,
+    "category": "Asset Liability Management",
+    "question": "What is Currency Hedging in international portfolios?",
+    "answer": "Managing foreign exchange risk by executing currency forward contracts to protect local-currency asset returns from adverse FX fluctuations."
+  },
+  {
+    "id": 93,
+    "category": "Asset Liability Management",
+    "question": "What is Capital Preservation strategy?",
+    "answer": "Ultra-conservative portfolio objective prioritizing nominal capital protection using cash equivalents, short-term Treasuries, and inflation-indexed bonds."
+  },
+  {
+    "id": 94,
+    "category": "Asset Liability Management",
+    "question": "What is Spending Policy Rate in endowment management?",
+    "answer": "Formula specifying maximum percentage of endowment market value distributed annually to support operating budget while maintaining purchasing power in perpetuity."
+  },
+  {
+    "id": 95,
+    "category": "Asset Liability Management",
+    "question": "What is Glide Path in Target-Date Funds?",
+    "answer": "Formulaic trajectory that automatically shifts target-date portfolio asset allocation from growth-oriented equities toward conservative fixed income as target retirement year approaches."
+  },
+  {
+    "id": 96,
+    "category": "Asset Liability Management",
+    "question": "What is Tail Risk Hedging in institutional portfolios?",
+    "answer": "Purchasing long put option structures or volatility derivatives to protect portfolio value against catastrophic stock market tail drops."
+  },
+  {
+    "id": 97,
+    "category": "Asset Liability Management",
+    "question": "What is Risk Budgeting?",
+    "answer": "Framework decomposing and allocating total permitted risk allowance (e.g. Tracking Error or VaR) across asset classes, strategies, or sub-managers."
+  },
+  {
+    "id": 98,
+    "category": "Asset Liability Management",
+    "question": "What is Constant Proportion Portfolio Insurance (CPPI)?",
+    "answer": "Dynamic allocation trading rule allocating capital between risky asset and safe asset based on formula: Risky Allocation = Multiplier * (Portfolio Value - Floor Value)."
+  },
+  {
+    "id": 99,
+    "category": "Asset Liability Management",
+    "question": "What is Sequence of Returns Risk?",
+    "answer": "Risk that order and timing of negative investment returns early in retirement withdrawal phase permanently depletes portfolio longevity."
+  },
+  {
+    "id": 100,
+    "category": "Asset Liability Management",
+    "question": "What is Institutional Governance and Fiduciary Duty?",
+    "answer": "Legal and ethical obligation of portfolio managers and trustees to act solely in best interests of beneficiaries, operating under Duty of Care and Duty of Loyalty."
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is Fundamental Market Analysis and what are its core pillars?",
+    "answer": "Fundamental analysis evaluates a market, industry, or asset's intrinsic value by examining economic indicators, corporate balance sheets, earnings reports, industry growth trends, and macroeconomic policies. Its three main pillars are Macroeconomic Environment, Industry Dynamics, and Company-Specific Fundamentals."
+  },
+  {
+    "id": 2,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is the difference between Top-Down and Bottom-Up market analysis?",
+    "answer": "Top-Down market analysis starts with broad global macroeconomic trends (GDP, interest rates, inflation), identifies promising sectors, and selects individual assets within those sectors. Bottom-Up analysis focuses directly on individual company fundamentals (financial health, competitive moat, earnings) regardless of broader economic conditions."
+  },
+  {
+    "id": 3,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "How do GDP growth rate changes influence equity and bond markets?",
+    "answer": "Accelerating GDP growth signals corporate revenue expansion and economic health, boosting equity markets. However, strong growth may prompt central banks to raise interest rates to combat inflation, raising bond yields and reducing bond prices."
+  },
+  {
+    "id": 4,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What are Leading, Lagging, and Coincident Economic Indicators?",
+    "answer": "Leading indicators (e.g., stock market index, building permits, yield curve) change before the overall economy shifts. Lagging indicators (e.g., unemployment rate, CPI inflation) confirm trends after economic shifts occur. Coincident indicators (e.g., retail sales, industrial production) change simultaneously with economic activity."
+  },
+  {
+    "id": 5,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is the Consumer Price Index (CPI) and how does it impact market interest rates?",
+    "answer": "CPI measures the average change over time in prices paid by consumers for a market basket of goods and services. High CPI indicates rising inflation, prompting central banks to raise benchmark interest rates, which increases borrowing costs across financial markets."
+  },
+  {
+    "id": 6,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is Purchasing Managers' Index (PMI) and how is a reading above/below 50 interpreted?",
+    "answer": "PMI is an economic indicator derived from monthly surveys of private sector supply chain managers. A reading above 50 signals expansion in the manufacturing/services sector, while a reading below 50 indicates contraction."
+  },
+  {
+    "id": 7,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "How do Central Bank benchmark interest rate decisions affect market valuation multiples?",
+    "answer": "Higher central bank interest rates increase the discount rate applied in Discounted Cash Flow (DCF) models, lowering the present value of future cash flows and leading to compression of valuation multiples (e.g., P/E ratios), especially for high-growth stocks."
+  },
+  {
+    "id": 8,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is Quantitative Tightening (QT) and how does it alter market liquidity?",
+    "answer": "Quantitative Tightening is a central bank monetary policy where the bank reduces its balance sheet by letting bond holdings mature without replacement or selling securities. QT drains excess liquidity from the banking system, tightening market liquidity conditions."
+  },
+  {
+    "id": 9,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is Stagflation and why is it challenging for central banks?",
+    "answer": "Stagflation is an economic condition characterized by stagnant economic growth, high unemployment, and high inflation simultaneously. It poses a dilemma because interest rate hikes to curb inflation depress economic growth further, while rate cuts fuel inflation."
+  },
+  {
+    "id": 10,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "How does currency appreciation/depreciation affect export-driven vs import-dependent market sectors?",
+    "answer": "Currency depreciation makes exports cheaper internationally, benefiting export-driven companies, but raises costs for import-dependent companies. Currency appreciation benefits importers by lowering input costs but reduces foreign earnings competitiveness for exporters."
+  },
+  {
+    "id": 11,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is the Taylor Rule in macroeconomic market analysis?",
+    "answer": "The Taylor Rule is a central bank monetary policy formula that prescribes the nominal benchmark interest rate based on target inflation, current inflation rates, full-employment output levels, and economic output gap."
+  },
+  {
+    "id": 12,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is Market Capitalization-to-GDP Ratio (Buffett Indicator)?",
+    "answer": "The Buffett Indicator measures total market capitalization of a country's stock market divided by its nominal Gross Domestic Product. A ratio significantly exceeding 100% indicates an overvalued stock market relative to economic output."
+  },
+  {
+    "id": 13,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "How do Treasury yield curve shifts (Steepening vs Flattening) signal market cycles?",
+    "answer": "Yield curve steepening (widening spread between long and short rates) suggests economic acceleration or rising inflation expectations. Yield curve flattening or inversion (short rates above long rates) historically signals economic slowdown or impending recession."
+  },
+  {
+    "id": 14,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is the correlation between Commodity Price Indices and Inflation Expectations?",
+    "answer": "Commodity prices (e.g., crude oil, copper, agricultural goods) are key raw inputs. Increases in commodity indices drive up producer costs, feeding directly into headline CPI and raising inflation expectations."
+  },
+  {
+    "id": 15,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is Earnings Surprise in market quarterly reporting analysis?",
+    "answer": "Earnings Surprise occurs when a company's reported quarterly Earnings Per Share (EPS) differs significantly from analyst consensus estimates. Positive surprises drive short-term price appreciation; negative surprises trigger downward price adjustments."
+  },
+  {
+    "id": 16,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is Cyclical vs Defensive Sector analysis?",
+    "answer": "Cyclical sectors (e.g., Consumer Discretionary, Industrials, Technology) rely heavily on economic growth and expand rapidly during expansions. Defensive sectors (e.g., Utilities, Consumer Staples, Healthcare) provide steady earnings regardless of business cycles."
+  },
+  {
+    "id": 17,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is non-farm payrolls (NFP) report and why does it drive high intraday market volatility?",
+    "answer": "The US Non-Farm Payrolls report measures monthly net changes in employment across non-agricultural sectors. It serves as a primary gauge of economic health, heavily influencing Federal Reserve rate decisions and causing sharp intraday asset revaluations."
+  },
+  {
+    "id": 18,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is Foreign Direct Investment (FDI) and how does it influence long-term currency value?",
+    "answer": "FDI involves cross-border investment where an enterprise acquires lasting management interest in a foreign company. High FDI inflows increase structural demand for the domestic currency, strengthening its long-term market exchange rate."
+  },
+  {
+    "id": 19,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is Price-to-Earnings Growth (PEG) Ratio in equity valuation analysis?",
+    "answer": "PEG Ratio divides a stock's Price-to-Earnings (P/E) ratio by its projected annual earnings growth rate. A PEG ratio under 1.0 suggests a stock may be undervalued relative to its expected growth."
+  },
+  {
+    "id": 20,
+    "category": "Fundamental & Macroeconomic Analysis",
+    "question": "What is Sovereign Credit Rating and how does a downgrade impact national bond yields?",
+    "answer": "Sovereign Credit Rating assesses a national government's creditworthiness and default risk (e.g., AAA, BBB). A downgrade increases perceived default risk, forcing borrowing costs up and raising yields on government bonds."
+  },
+  {
+    "id": 21,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Technical Analysis and its underlying assumption?",
+    "answer": "Technical analysis evaluates market investments and identifies trading opportunities by analyzing statistical trends, historical price action, and volume patterns. Its underlying assumption is that historical price behavior repeat and all publicly available information is reflected in market prices."
+  },
+  {
+    "id": 22,
+    "category": "Technical Analysis & Price Action",
+    "question": "What are Support and Resistance levels in market price charts?",
+    "answer": "Support is a price level where buying interest is strong enough to prevent the price from falling further. Resistance is a price level where selling pressure is strong enough to prevent the price from rising further."
+  },
+  {
+    "id": 23,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Relative Strength Index (RSI) and how are overbought/oversold levels interpreted?",
+    "answer": "RSI is a momentum oscillator measuring the speed and change of price movements on a scale from 0 to 100. Readings above 70 indicate overbought conditions (potential pullback); readings below 30 indicate oversold conditions (potential bounce)."
+  },
+  {
+    "id": 24,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Moving Average Convergence Divergence (MACD)?",
+    "answer": "MACD is a trend-following momentum indicator calculating the difference between a short-term exponential moving average (12-period EMA) and long-term EMA (26-period EMA). Signal line crossovers indicate shifts in market momentum."
+  },
+  {
+    "id": 25,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is a Golden Cross vs Death Cross moving average signal?",
+    "answer": "A Golden Cross occurs when a short-term moving average (e.g., 50-day SMA) crosses above a long-term moving average (e.g., 200-day SMA), signaling a bullish trend reversal. A Death Cross occurs when the short-term MA crosses below the long-term MA, signaling a bearish trend."
+  },
+  {
+    "id": 26,
+    "category": "Technical Analysis & Price Action",
+    "question": "What are Bollinger Bands and how do they measure market volatility?",
+    "answer": "Bollinger Bands consist of a simple moving average middle band surrounded by upper and lower bands positioned two standard deviations away. Band expansion indicates rising market volatility; band contraction (squeeze) signals low volatility and potential breakout."
+  },
+  {
+    "id": 27,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Head and Shoulders chart pattern and what does it signal?",
+    "answer": "Head and Shoulders is a reversal chart pattern featuring three peaks (a higher peak between two lower shoulder peaks). A break below the connecting neckline confirms a bearish reversal from an uptrend to a downtrend."
+  },
+  {
+    "id": 28,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Fibonacci Retracements and how are the key ratios applied?",
+    "answer": "Fibonacci Retracements use horizontal lines indicating areas of support or resistance at mathematical Fibonacci ratios (23.6%, 38.2%, 50%, 61.8%, 78.6%) to identify potential bounce zones during price pullbacks."
+  },
+  {
+    "id": 29,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Average True Range (ATR)?",
+    "answer": "ATR is a technical indicator that measures market volatility by calculating the average range of price movements over a specified timeframe (typically 14 periods), accounting for gaps between trading sessions."
+  },
+  {
+    "id": 30,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Volume-Weighted Average Price (VWAP)?",
+    "answer": "VWAP measures the average trading price of an asset throughout the trading day weighted by both volume and price. Institutional traders use VWAP to evaluate trade execution efficiency relative to market average."
+  },
+  {
+    "id": 31,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is On-Balance Volume (OBV)?",
+    "answer": "OBV is a cumulative momentum indicator that relates price changes to total volume. Volume is added on up-days and subtracted on down-days to identify institutional accumulation or distribution."
+  },
+  {
+    "id": 32,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Elliott Wave Theory?",
+    "answer": "Elliott Wave Theory asserts market price trends develop in repetitive 8-wave structural fractal patterns: 5 impulse waves moving in the direction of the main trend followed by 3 corrective waves (A-B-C)."
+  },
+  {
+    "id": 33,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Bullish vs Bearish Divergence in momentum indicators?",
+    "answer": "Bullish divergence occurs when price makes a lower low but the oscillator (e.g., RSI/MACD) makes a higher low, signaling weakening selling pressure. Bearish divergence occurs when price makes a higher high but the oscillator makes a lower high."
+  },
+  {
+    "id": 34,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Japanese Candlestick Engulfing Pattern?",
+    "answer": "A Bullish Engulfing pattern features a small red candle completely enclosed by a large green candle's real body, signaling strong buying takeover. A Bearish Engulfing pattern features a small green candle enclosed by a large red candle body."
+  },
+  {
+    "id": 35,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Ichimoku Kinko Hyo (Ichimoku Cloud)?",
+    "answer": "Ichimoku Cloud is a comprehensive technical indicator displaying support/resistance, trend direction, momentum, and buy/sell signals via five lines and a shaded cloud area (Kumo)."
+  },
+  {
+    "id": 36,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is a False Breakout (Fakeout)?",
+    "answer": "A false breakout occurs when asset prices briefly move beyond a key support or resistance level but quickly reverse back into the previous trading range, trapping breakout traders."
+  },
+  {
+    "id": 37,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Stochastic Oscillator?",
+    "answer": "Stochastic Oscillator compares a specific closing price of an asset to its range of prices over a given period (typically 14 days), measuring momentum on a scale of 0 to 100."
+  },
+  {
+    "id": 38,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Average Directional Index (ADX)?",
+    "answer": "ADX measures the overall strength of a market trend without regard to trend direction on a 0-100 scale. Readings above 25 indicate a strong trending market; readings below 20 signal a weak or ranging market."
+  },
+  {
+    "id": 39,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is a Cup and Handle pattern?",
+    "answer": "Cup and Handle is a bullish continuation chart pattern resembling a tea cup shape followed by a small downward consolidation handle. A breakout above the cup rim resistance confirms trend continuation."
+  },
+  {
+    "id": 40,
+    "category": "Technical Analysis & Price Action",
+    "question": "What is Market Microstructure and Order Book Analysis?",
+    "answer": "Market Microstructure examines explicit mechanics of trade execution, order book depth (Level 2 data), bid-ask spreads, limit order imbalances, and dark pool transaction flows."
+  },
+  {
+    "id": 41,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Market Depth (Level 2 Data)?",
+    "answer": "Market depth measures the volume of buy and sell limit orders queued at different price levels surrounding the current market price, indicating order book liquidity."
+  },
+  {
+    "id": 42,
+    "category": "Market Structure & Liquidity",
+    "question": "What is the difference between Order-Driven and Quote-Driven financial markets?",
+    "answer": "Order-Driven markets (e.g., electronic exchanges like NYSE/NASDAQ) match buy and sell orders directly from market participants. Quote-Driven markets (e.g., OTC dealer markets, FX) rely on market makers providing continuous bid and ask price quotes."
+  },
+  {
+    "id": 43,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Dark Pool trading and how does it affect market transparency?",
+    "answer": "Dark pools are private financial execution venues for trading securities off public exchanges. They allow institutional traders to execute large block orders without revealing intentions, reducing pre-trade transparency."
+  },
+  {
+    "id": 44,
+    "category": "Market Structure & Liquidity",
+    "question": "What is High-Frequency Trading (HFT) and its market impact?",
+    "answer": "HFT utilizes algorithmic computing to execute large numbers of orders at microsecond speeds. HFT adds market liquidity and narrows bid-ask spreads, but can trigger flash crashes during stress."
+  },
+  {
+    "id": 45,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Market Impact / Slippage?",
+    "answer": "Slippage is the difference between the expected execution price of an order and the actual price at which it executes, caused by market price movement during execution or order size exceeding available depth."
+  },
+  {
+    "id": 46,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Bid-Ask Spread Dynamics during market volatility?",
+    "answer": "During heightened market uncertainty, liquidity providers widen bid-ask spreads to compensate for higher adverse selection risk and inventory risk, raising transaction costs for traders."
+  },
+  {
+    "id": 47,
+    "category": "Market Structure & Liquidity",
+    "question": "What is a Liquidity Squeeze or Liquidity Freeze?",
+    "answer": "A liquidity freeze occurs when market participants withdraw buy/sell offers simultaneously, making it difficult to execute trades without extreme price concessions."
+  },
+  {
+    "id": 48,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Payment for Order Flow (PFOF)?",
+    "answer": "PFOF is the compensation a retail brokerage firm receives from market makers for routing customer trade orders to them for execution, raising discussions around execution quality."
+  },
+  {
+    "id": 49,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Market Manipulation via Spoofing?",
+    "answer": "Spoofing is an illegal market manipulation practice where a trader places large non-bona fide buy or sell orders with the intent to cancel them before execution, artificially influencing market prices."
+  },
+  {
+    "id": 50,
+    "category": "Market Structure & Liquidity",
+    "question": "What are Circuit Breakers in equity exchange trading?",
+    "answer": "Circuit breakers are regulatory mechanisms that halt trading across exchanges when benchmark stock indices drop by specified threshold percentages (e.g., 7%, 13%, 20%) to curb panic selling."
+  },
+  {
+    "id": 51,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Market Maker Inventory Risk?",
+    "answer": "Inventory risk is the risk a market maker incurs by holding securities on their balance sheet while providing continuous bid/ask quotes during adverse price moves."
+  },
+  {
+    "id": 52,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Internalization of retail order flow?",
+    "answer": "Internalization occurs when a broker executes a client's buy or sell order directly against its own inventory or through an affiliated market maker rather than routing to a public exchange."
+  },
+  {
+    "id": 53,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Market Order Imbalance?",
+    "answer": "An order imbalance occurs when buy or sell market orders significantly exceed matching limit orders, prompting exchanges to initiate opening or closing price discovery auctions."
+  },
+  {
+    "id": 54,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Cross-Asset Liquidity Contagion?",
+    "answer": "Contagion occurs when severe liquidity distress in one asset class (e.g., high-yield corporate bonds) forces institutional investors to sell liquid assets (e.g., gold or mega-cap tech) to satisfy margin calls."
+  },
+  {
+    "id": 55,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Market Efficiency and the 3 Forms of Efficient Market Hypothesis (EMH)?",
+    "answer": "EMH states prices reflect available information. Weak Form assumes past prices are fully priced in. Semi-Strong Form assumes all public information is priced in. Strong Form assumes all public and private insider information is fully priced in."
+  },
+  {
+    "id": 56,
+    "category": "Market Structure & Liquidity",
+    "question": "What is the Volatility Index (VIX) and how is it derived?",
+    "answer": "The VIX measures expected 30-day volatility of the US stock market derived from real-time S&P 500 index option bid/ask quotes, often referred to as the 'Fear Index'."
+  },
+  {
+    "id": 57,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Gamma Squeeze in market derivatives analysis?",
+    "answer": "A gamma squeeze occurs when intense retail buying of short-dated out-of-the-money call options forces option market makers to buy increasing shares of the underlying stock to maintain delta-neutral hedges."
+  },
+  {
+    "id": 58,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Short Interest and Days to Cover (Short Squeeze Ratio)?",
+    "answer": "Short Interest measures total shares borrowed and sold short. Days to Cover divides short interest by average daily volume; high ratios indicate vulnerability to a short squeeze."
+  },
+  {
+    "id": 59,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Intermarket Analysis?",
+    "answer": "Intermarket Analysis examines price relationships across four major global financial asset classes: Currencies, Commodities, Bonds, and Equities to gauge broader trends."
+  },
+  {
+    "id": 60,
+    "category": "Market Structure & Liquidity",
+    "question": "What is Market Breadth analysis using the Advance-Decline Line (A/D Line)?",
+    "answer": "The Advance-Decline Line calculates the net difference between advancing and declining stocks daily. Divergence between index gains and a falling A/D line signals narrow, fragile market rallies."
+  },
+  {
+    "id": 61,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Market Sentiment Analysis?",
+    "answer": "Sentiment analysis gauges the overall attitude and emotional positioning of traders and investors toward a specific asset, market sector, or financial index (bullish, bearish, or neutral)."
+  },
+  {
+    "id": 62,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is the Commitments of Traders (COT) report?",
+    "answer": "The COT report, published weekly by the CFTC, breaks down net long/short position holdings of commercial hedgers, non-commercial speculators, and retail traders in futures markets."
+  },
+  {
+    "id": 63,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Put-Call Ratio (PCR) and how is it used as a contrarian indicator?",
+    "answer": "Put-Call Ratio measures total traded put option volume divided by call option volume. Extremely high PCR levels (>1.0) reflect extreme market fear, serving as a bullish contrarian signal."
+  },
+  {
+    "id": 64,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is the AAII Sentiment Survey?",
+    "answer": "The American Association of Individual Investors survey measures the percentage of individual investors who are bullish, bearish, or neutral on the stock market over a 6-month horizon."
+  },
+  {
+    "id": 65,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Behavioral Finance and how does it challenge traditional market theory?",
+    "answer": "Behavioral Finance incorporates psychological insights to explain market anomalies, asserting that human cognitive biases cause asset prices to deviate systematically from rational intrinsic values."
+  },
+  {
+    "id": 66,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Loss Aversion bias in investor market behavior?",
+    "answer": "Loss aversion describes the psychological phenomenon where the pain of losing money is twice as powerful as the pleasure of gaining an equivalent amount, causing investors to hold losing trades too long."
+  },
+  {
+    "id": 67,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Herd Mentality / Herding Behavior in financial market bubbles?",
+    "answer": "Herding behavior occurs when investors follow collective market actions without independent research, driving asset prices away from fundamental valuations and inflating asset bubbles."
+  },
+  {
+    "id": 68,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Confirmation Bias in market analysis?",
+    "answer": "Confirmation bias leads traders to seek out and emphasize market information supporting their existing thesis while ignoring or dismissing contradictory evidence."
+  },
+  {
+    "id": 69,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Overconfidence Bias among retail market participants?",
+    "answer": "Overconfidence bias leads investors to overestimate their analytical skill or knowledge precision, resulting in excessive trading volume, underestimation of risk, and poor risk-adjusted returns."
+  },
+  {
+    "id": 70,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Anchoring Bias in asset valuation?",
+    "answer": "Anchoring occurs when investors fixate on an arbitrary reference point (such as an asset's past high price or purchase price) when making valuation judgments."
+  },
+  {
+    "id": 71,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is the Fear and Greed Index?",
+    "answer": "The Fear & Greed Index aggregates multiple sub-indicators (market momentum, junk bond demand, VIX, safe haven demand) into a 0-100 score quantifying extreme emotional extremes."
+  },
+  {
+    "id": 72,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Social Media Sentiment Mining (NLP Analysis) in modern market research?",
+    "answer": "NLP tools analyze large volumes of text data across social platforms (Twitter/X, Reddit, news feeds) to generate real-time bullish/bearish sentiment scores."
+  },
+  {
+    "id": 73,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Disposition Effect in market trading execution?",
+    "answer": "The Disposition Effect describes the tendency for investors to sell assets that have appreciated prematurely while retaining depreciated assets, driven by regret avoidance."
+  },
+  {
+    "id": 74,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Market Euphoria vs Panic capitulation phase?",
+    "answer": "Euphoria marks peak market sentiment characterized by unbridled optimism and excessive margin leverage. Panic capitulation marks final washouts where investors liquidate positions indiscriminately."
+  },
+  {
+    "id": 75,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Recency Bias in economic forecasting?",
+    "answer": "Recency bias leads investors to over-weight recent market conditions or news events when forecasting future price trends while overlooking long-term historical base rates."
+  },
+  {
+    "id": 76,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Mental Accounting in personal asset allocation?",
+    "answer": "Mental accounting refers to treating money differently based on its source or intended purpose rather than viewing all capital as fungible."
+  },
+  {
+    "id": 77,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is the Bullish Consensus Index?",
+    "answer": "The Bullish Consensus Index aggregates market sentiment from financial newsletters and analyst market letters to track percentage bullishness among professional market commentators."
+  },
+  {
+    "id": 78,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is High Yield Option-Adjusted Spread (OAS) as a sentiment measure?",
+    "answer": "OAS tracks yield spread of junk bonds over benchmark Treasuries. Narrowing spreads signal risk-on investor appetite, while widening spreads indicate rising credit panic."
+  },
+  {
+    "id": 79,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Hindsight Bias in retrospective trading reviews?",
+    "answer": "Hindsight bias leads investors to perceive past market events as predictable after they have occurred, creating false confidence in market timing ability."
+  },
+  {
+    "id": 80,
+    "category": "Sentiment & Behavioral Analysis",
+    "question": "What is Smart Money vs Dumb Money confidence index?",
+    "answer": "Smart Money Confidence Index measures institutional flow positioning (e.g., commercial hedgers) relative to retail flow positioning ('Dumb Money') at key market inflection points."
+  },
+  {
+    "id": 81,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Porter's Five Forces framework for industry structural analysis?",
+    "answer": "Porter's Five Forces evaluates industry attractiveness and profitability by examining: 1) Threat of New Entrants, 2) Bargaining Power of Buyers, 3) Bargaining Power of Suppliers, 4) Threat of Substitutes, and 5) Competitive Rivalry."
+  },
+  {
+    "id": 82,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Total Addressable Market (TAM), SAM, and SOM?",
+    "answer": "TAM measures total market demand for a product or service. Serviceable Addressable Market (SAM) is the segment of TAM targeted by a company's offerings. Serviceable Obtainable Market (SOM) is the market share realistically achievable."
+  },
+  {
+    "id": 83,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Economic Moat in competitive market analysis?",
+    "answer": "An Economic Moat is a structural competitive advantage protecting a firm's long-term market share and profit margins from competitors (e.g., network effects, high switching costs, patents, cost advantages)."
+  },
+  {
+    "id": 84,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Market Concentration Ratio (CR4) and Herfindahl-Hirschman Index (HHI)?",
+    "answer": "CR4 measures the aggregate market share held by the top four industry firms. HHI sums squared market shares of all industry participants to quantify market consolidation (HHI > 2,500 indicates high concentration)."
+  },
+  {
+    "id": 85,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Sector Rotation strategy across macroeconomic market regimes?",
+    "answer": "Sector rotation shifts capital investment across stock market sectors based on expected macroeconomic phases (e.g., early expansion -> Technology/Discretionary; contraction -> Consumer Staples/Utilities)."
+  },
+  {
+    "id": 86,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Industry Life Cycle analysis?",
+    "answer": "Industry Life Cycle models sector development through five stages: 1) Startup/Development, 2) Growth, 3) Shakeout, 4) Maturity, and 5) Decline, guiding growth vs value expectations."
+  },
+  {
+    "id": 87,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Network Effects in platform digital market analysis?",
+    "answer": "Network effects occur when a platform service becomes exponentially more valuable to existing users as new users join the platform (e.g., social networks, online marketplaces)."
+  },
+  {
+    "id": 88,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is PESTLE Analysis for macro-environmental market scanning?",
+    "answer": "PESTLE scanning analyzes external strategic forces impacting market sectors: Political, Economic, Social, Technological, Legal, and Environmental factors."
+  },
+  {
+    "id": 89,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Switching Costs as an industry entry barrier?",
+    "answer": "Switching costs are financial, time, or operational friction expenses a buyer incurs when changing suppliers or software ecosystems, locking in customer market retention."
+  },
+  {
+    "id": 90,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Supply Chain Bottleneck and its impact on corporate operating margins?",
+    "answer": "Supply chain disruptions restrict raw component availability, driving up shipping rates and supplier input costs, causing operating margin compression unless pricing power exists."
+  },
+  {
+    "id": 91,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Pricing Power in corporate market positioning?",
+    "answer": "Pricing power is a firm's capability to raise prices on products or services without experiencing meaningful reductions in customer sales volumes or demand."
+  },
+  {
+    "id": 92,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is First-Mover Advantage vs Fast-Follower strategy?",
+    "answer": "First-mover advantage enables early market pioneers to secure brand recognition and customer base. Fast-followers allow pioneers to incur initial R&D expenses before entering with refined, cost-effective alternatives."
+  },
+  {
+    "id": 93,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Relative Market Share (RMS)?",
+    "answer": "Relative Market Share divides a company's market share by the market share of its leading direct competitor, evaluating relative market dominance."
+  },
+  {
+    "id": 94,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Cannibalization Rate in product expansion analysis?",
+    "answer": "Cannibalization rate measures the percentage of sales from a newly introduced product line that directly offsets sales from a company's existing established product lines."
+  },
+  {
+    "id": 95,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Vertical Integration (Forward vs Backward)?",
+    "answer": "Vertical integration expands control along the supply chain. Backward integration acquires suppliers or raw materials. Forward integration acquires distribution channels or customer touchpoints."
+  },
+  {
+    "id": 96,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Disruption Theory (Christensen Model)?",
+    "answer": "Disruption theory describes how simple, lower-cost innovations enter at the bottom of a market, steadily improving performance until displacing established incumbents."
+  },
+  {
+    "id": 97,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Customer Lifetime Value (CLV) to Customer Acquisition Cost (CAC) Ratio?",
+    "answer": "CLV:CAC compares net lifetime revenue generated by a customer against the direct marketing expense required to acquire them (a ratio > 3:1 indicates healthy growth)."
+  },
+  {
+    "id": 98,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Regulatory Risk in sector market evaluation?",
+    "answer": "Regulatory risk reflects potential earnings damage or compliance cost increases resulting from new government laws, antitrust lawsuits, or environmental legislation."
+  },
+  {
+    "id": 99,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Value Chain Analysis?",
+    "answer": "Value chain analysis breaks down internal activities (inbound logistics, operations, marketing, service) to identify cost drivers and competitive differentiation."
+  },
+  {
+    "id": 100,
+    "category": "Industry & Competitive Analysis",
+    "question": "What is Gross Merchandise Value (GMV) vs Net Revenue in platform marketplaces?",
+    "answer": "GMV measures total cumulative dollar value of goods sold across a platform over a period. Net Revenue reflects only the platform's cut/take-rate fees earned from those transactions."
+  }
+]
